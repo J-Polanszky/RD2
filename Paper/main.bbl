@@ -1,0 +1,10 @@
+\begin{thebibliography}{1}
+
+\bibitem{ronneberger2015unet}
+O.~Ronneberger, P.~Fischer, and T.~Brox, ``U-net: Convolutional networks for biomedical image segmentation,'' in {\em International Conference on Medical image computing and computer-assisted intervention}, pp.~234--241, Springer, 2015.
+
+\bibitem{latex2e}
+L.~Lamport, {\em {\LaTeX}: a Document Preparation System}.
+\newblock Massachusetts: Addison Wesley, 2~ed., 1994.
+
+\end{thebibliography}
