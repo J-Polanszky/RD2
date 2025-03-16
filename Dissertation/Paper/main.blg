@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Front/01_coverpage.aux
+A level-1 auxiliary file: Front/02_authorship.aux
+A level-1 auxiliary file: Front/03_copyright.aux
+A level-1 auxiliary file: Front/04_Acknowledgement.aux
+A level-1 auxiliary file: Front/05_Abstract.aux
+A level-1 auxiliary file: Front/06_Abbreviations.aux
+A level-1 auxiliary file: Sections/01_Introduction.aux
+A level-1 auxiliary file: Sections/02_LiteratureReview.aux
+A level-1 auxiliary file: Sections/03_Methodology.aux
+A level-1 auxiliary file: Sections/04_AnalysisResultsDiscussion.aux
+A level-1 auxiliary file: Sections/05_ConclusionsRecommendations.aux
+The style file: IEEEtran.bst
+A level-1 auxiliary file: Sections/06_Appendix.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Ref/References.bib
+Warning--I didn't find a database entry for "chrysafiadi_fuzzy_based_2023"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in mcquillan_survey_nodate
+Warning--empty year in mcquillan_survey_nodate
+
+Done.
+You've used 23 entries,
+            4087 wiz_defined-function locations,
+            966 strings with 13191 characters,
+and the built_in function-call counts, 15192 in all, are:
+= -- 1300
+> -- 304
+< -- 98
++ -- 168
+- -- 60
+* -- 787
+:= -- 2557
+add.period$ -- 49
+call.type$ -- 23
+change.case$ -- 25
+chr.to.int$ -- 231
+cite$ -- 25
+duplicate$ -- 1071
+empty$ -- 1194
+format.name$ -- 64
+if$ -- 3435
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 199
+newline$ -- 120
+num.names$ -- 22
+pop$ -- 415
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1132
+stack$ -- 0
+substring$ -- 581
+swap$ -- 884
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 23
+warning$ -- 2
+while$ -- 66
+width$ -- 25
+write$ -- 280
+(There were 3 warnings)

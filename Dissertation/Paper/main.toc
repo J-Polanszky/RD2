@@ -1,0 +1,71 @@
+\vspace {0.05in}
+\contentsline {chapter}{Authorship Statement}{i}{chapter*.2}%
+\contentsline {chapter}{Copyright Statement}{ii}{chapter*.3}%
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.4}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.5}%
+\contentsline {chapter}{List of Figures}{vii}{chapter*.7}%
+\contentsline {chapter}{List of Tables}{viii}{chapter*.8}%
+\contentsline {chapter}{List of Abbreviations}{ix}{chapter*.9}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Sub-chapter One}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Sub-chapter Two}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Sub-chapter Three}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Sub-chapter Four}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Sub-chapter Five}{6}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Literature Review}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Chapter Introduction}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Dynamic Difficulty Adjustment (DDA)}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Determining Player Skill}{10}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Static Game Difficulties}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Fixed Difficulties}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Difficulty Selection}{11}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Dynamic Difficulty Adjustment Compared with Static Difficulties}{11}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Game Immersion and replayability}{12}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}AI with DDA Algorithms}{12}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Adaptive Gameplay AI Algorithms}{12}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Deep Reinforcement Learning (DRL) Algorithm}{12}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Fuzzy Logic}{13}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Monte Carlo Tree Search (MCTS)}{14}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Decision \& Behaviour Trees}{15}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}Procedural Content Generation}{16}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Unity ML-Agents and how they work}{16}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Finite State Machines}{17}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}RL Agents}{17}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}RL Agents compared with Finite State Machines}{18}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Practical Applications}{18}{subsection.2.8.4}%
+\contentsline {section}{\numberline {2.9}Chapter Overview}{19}{section.2.9}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Chapter Introduction}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Conceptual Framework}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Prerequisites and Tools}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Prototype Outline \& Implementation}{21}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Ores}{23}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Traditional State Machine}{24}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}RL Agent}{24}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}DDA System}{25}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}RL-Agent opponent}{25}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Agent Observations}{25}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Agent Decisions \& Actions}{26}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Agent Rewards \& Penalties}{27}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Agent Training}{27}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Model Selection \& Evaluation}{27}{subsection.3.5.5}%
+\contentsline {section}{\numberline {3.6}Data Collection}{27}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Quantitative Data}{27}{subsection.3.6.1}%
+\contentsline {subsubsection}{Player and Enemy Action Logs}{28}{subsection.3.6.1}%
+\contentsline {subsubsection}{Game \& Perfomance Summary}{28}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Qualitative Data}{28}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Participants}{29}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Tests}{29}{subsection.3.6.4}%
+\contentsline {section}{\numberline {3.7}Evaluation}{30}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Chapter Overview}{30}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Analysis of Results and Discussion}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}One}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Two}{31}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Three}{31}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusions and Recommendations}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}One}{32}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Two}{32}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Three}{32}{section.5.3}%
+\contentsline {chapter}{List of References}{33}{chapter*.24}%
+\contentsline {chapter}{Appendix \numberline {A}Introduction of Appendix}{38}{appendix.1.A}%
+\contentsline {chapter}{Appendix \numberline {B}Sample Code}{39}{appendix.1.B}%

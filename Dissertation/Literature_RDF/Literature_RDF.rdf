@@ -1,0 +1,1518 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Thesis rdf:about="#item_1">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paola, Malta</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Malta College of Arts Science and Technology (MCAST)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grech</foaf:surname>
+                        <foaf:givenName>Georg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2"/>
+        <dc:title>Creating Difficulty Levels with Reinforcement Learning in a Strategy Game</dc:title>
+        <dc:date>6/2023</dc:date>
+        <z:language>English</z:language>
+        <z:numPages>97</z:numPages>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_2">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2/Grech - Creating Difficulty Levels with Reinforcement Learning in a Strategy Game.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_3">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paola, Malta</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Malta College of Arts Science and Technology (MCAST)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mercieca</foaf:surname>
+                        <foaf:givenName>Adrian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4"/>
+        <dc:title>Evaluating Player Appreciation towards Dynamic Difficulty Adjustment managed through Artificial Intelligence</dc:title>
+        <dc:date>6/2023</dc:date>
+        <z:numPages>81</z:numPages>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_4">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4/Mercieca - Evaluating Player Appreciation towards Dynamic Difficulty Adjustment managed through Artificial Inte.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_5">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paola, Malta</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Malta College of Arts Science and Technology (MCAST)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Attard</foaf:surname>
+                        <foaf:givenName>Jeremy Paul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6"/>
+        <dc:title>Analysing Player Motivation when using Dynamic Difficulty Adjustment in Games</dc:title>
+        <dc:date>6/2021</dc:date>
+        <z:numPages>37</z:numPages>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/6/Analysing Player Motivation when using Dynamic Difficulty Adjustment in Games.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_7">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paola, Malta</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Malta College of Arts Science and Technology (MCAST)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Borg</foaf:surname>
+                        <foaf:givenName>Manwel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8"/>
+        <dc:title>Investigating the use of machine learning in real-time strategy games.</dc:title>
+        <dc:date>6/2020</dc:date>
+        <z:language>English</z:language>
+        <z:numPages>84</z:numPages>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/8/Borg - 2020 - .pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_9">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paola, Malta</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Malta College of Arts Science and Technology (MCAST)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Galea</foaf:surname>
+                        <foaf:givenName>Carlos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_10"/>
+        <dc:title>The Use of Gamification with Dynamic Difficulty Adjustment for Learning Applications</dc:title>
+        <dc:date>6/2020</dc:date>
+        <z:numPages>204</z:numPages>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/10/Galea - 2020 - The Use of Gamification with Dynamic Difficulty Adjustment for Learning Applications.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_11">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paola, Malta</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Malta College of Arts Science and Technology (MCAST)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mifsud</foaf:surname>
+                        <foaf:givenName>Kieran</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_12"/>
+        <dc:title>Utilizing Dynamic Difficulty Adjustment for improving player experience</dc:title>
+        <dc:date>6/2021</dc:date>
+        <z:numPages>78</z:numPages>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_12">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/12/Mifsud - 2021 - Utilizing Dynamic Difficulty Adjustment for improving player experience.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_13">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paola, Malta</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Malta College of Arts Science and Technology (MCAST)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abela</foaf:surname>
+                        <foaf:givenName>Eman Paul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_14"/>
+        <dc:title>Applying Machine Learning Agents to enhance Player Experience in Video Games</dc:title>
+        <dc:date>6/2023</dc:date>
+        <z:numPages>88</z:numPages>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_14">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/14/Abela - 2023 - Applying Machine Learning Agents to enhance Player Experience in Video Games.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_15">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paola, Malta</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Malta College of Arts Science and Technology (MCAST)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Laus</foaf:surname>
+                        <foaf:givenName>Liam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_16"/>
+        <dc:title>Dynamic Gaming Difficulty Calculation: A Study On The Impacts Of Procedural Difficulty Calculation On Player Performance And Immersion In Video Games.</dc:title>
+        <dc:date>6/2022</dc:date>
+        <z:numPages>94</z:numPages>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_16">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/16/Laus - 2022 - Dynamic Gaming Difficulty Calculation A Study On The Impacts Of Procedural Difficulty Calculation O.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.frontiersin.org/article/10.3389/feduc.2020.00129/full">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2504-284X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nebel</foaf:surname>
+                        <foaf:givenName>Steve</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beege</foaf:surname>
+                        <foaf:givenName>Maik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schneider</foaf:surname>
+                        <foaf:givenName>Sascha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rey</foaf:surname>
+                        <foaf:givenName>Günter Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Competitive Agents and Adaptive Difficulty Within Educational Video Games</dc:title>
+        <dc:date>2020-7-21</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.frontiersin.org/article/10.3389/feduc.2020.00129/full</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:19:10</dcterms:dateSubmitted>
+        <bib:pages>129</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2504-284X">
+        <prism:volume>5</prism:volume>
+        <dc:title>Frontiers in Education</dc:title>
+        <dc:identifier>DOI 10.3389/feduc.2020.00129</dc:identifier>
+        <dcterms:alternative>Front. Educ.</dcterms:alternative>
+        <dc:identifier>ISSN 2504-284X</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="urn:isbn:978-1-6654-3632-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-6654-3632-8</dc:identifier>
+                <dc:title>2021 4th International Symposium on Agents, Multi-Agent Systems and Robotics (ISAMSR)</dc:title>
+                <dc:identifier>DOI 10.1109/ISAMSR53229.2021.9567749</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Batu Pahat, Malaysia</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bin Ramlan</foaf:surname>
+                        <foaf:givenName>Adi Aiman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ali</foaf:surname>
+                        <foaf:givenName>Azliza Mohd</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abdul Hamid</foaf:surname>
+                        <foaf:givenName>Nurzeatul Hamimah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Osman</foaf:surname>
+                        <foaf:givenName>Rozianawaty</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The Implementation of Reinforcement Learning Algorithm for AI Bot in Fighting Video Game</dc:title>
+        <dc:date>2021-9-6</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9567749/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:20:20</dcterms:dateSubmitted>
+        <dc:rights>https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html</dc:rights>
+        <bib:pages>96-100</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2021 4th International Symposium on Agents, Multi-Agent Systems and Robotics (ISAMSR)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_19">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/19/Enhanced Gameplay Experience with RL.pdf"/>
+        <dc:title>Enhanced Gameplay Experience with RL</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_20">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>2024 IEEE 4th International Conference on Smart Information Systems and Technologies (SIST)</dc:title>
+                <dc:identifier>DOI 10.1109/SIST61555.2024.10629511</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhasulanov</foaf:surname>
+                        <foaf:givenName>Dinmukhammed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marat</foaf:surname>
+                        <foaf:givenName>Bekarys</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Erkin</foaf:surname>
+                        <foaf:givenName>Kuanysh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Omirgaliyev</foaf:surname>
+                        <foaf:givenName>Ruslan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kushekkaliyev</foaf:surname>
+                        <foaf:givenName>Alman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhakiyev</foaf:surname>
+                        <foaf:givenName>Nurkhat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Artificial intelligence</dc:subject>
+        <dc:subject>Artificial Intelligence (AI)</dc:subject>
+        <dc:subject>Data processing</dc:subject>
+        <dc:subject>Economics</dc:subject>
+        <dc:subject>Game</dc:subject>
+        <dc:subject>Gameplay Experience</dc:subject>
+        <dc:subject>Games</dc:subject>
+        <dc:subject>Machine learning algorithms</dc:subject>
+        <dc:subject>ML Agents</dc:subject>
+        <dc:subject>Non-playable character (NPC)</dc:subject>
+        <dc:subject>Reinforcement learning</dc:subject>
+        <dc:subject>Reinforcement Learning</dc:subject>
+        <dc:subject>Training</dc:subject>
+        <dc:subject>Unity</dc:subject>
+        <dc:title>Enhancing Gameplay Experience Through Reinforcement Learning in Games</dc:title>
+        <dc:date>2024</dc:date>
+        <bib:pages>175-180</bib:pages>
+    </rdf:Description>
+    <bib:Article rdf:about="https://ieeexplore.ieee.org/document/10695161/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2399-9802"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Berta</foaf:surname>
+                        <foaf:givenName>Riccardo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lazzaroni</foaf:surname>
+                        <foaf:givenName>Luca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Capello</foaf:surname>
+                        <foaf:givenName>Alessio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cossu</foaf:surname>
+                        <foaf:givenName>Marianna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Forneris</foaf:surname>
+                        <foaf:givenName>Luca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pighetti</foaf:surname>
+                        <foaf:givenName>Alessandro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bellotti</foaf:surname>
+                        <foaf:givenName>Francesco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_22"/>
+        <dc:title>Development of Deep-Learning-Based Autonomous Agents for Low-Speed Maneuvering in Unity</dc:title>
+        <dc:date>9/2024</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10695161/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:25:04</dcterms:dateSubmitted>
+        <bib:pages>229-244</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2399-9802">
+        <prism:volume>7</prism:volume>
+        <dc:title>Journal of Intelligent and Connected Vehicles</dc:title>
+        <dc:identifier>DOI 10.26599/JICV.2023.9210039</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>J. Int. Con. Veh.</dcterms:alternative>
+        <dc:identifier>ISSN 2399-9802</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_22">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/22/Berta et al. - 2024 - Development of Deep-Learning-Based Autonomous Agents for Low-Speed Maneuvering in Unity.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=10695161&amp;ref=</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:25:19</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-3503-9532-7">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 979-8-3503-9532-7</dc:identifier>
+                <dc:title>2024 2nd World Conference on Communication &amp;amp; Computing (WCONF)</dc:title>
+                <dc:identifier>DOI 10.1109/WCONF61366.2024.10692314</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>RAIPUR, India</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raut</foaf:surname>
+                        <foaf:givenName>Umesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Galchhaniya</foaf:surname>
+                        <foaf:givenName>Prathmesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nehete</foaf:surname>
+                        <foaf:givenName>Anish</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shinde</foaf:surname>
+                        <foaf:givenName>Rohan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bhoite</foaf:surname>
+                        <foaf:givenName>Avaneesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Unity ML-Agents: Revolutionizing Gaming Through Reinforcement Learning</dc:title>
+        <dc:date>2024-7-12</dc:date>
+        <z:shortTitle>Unity ML-Agents</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10692314/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:25:36</dcterms:dateSubmitted>
+        <dc:rights>https://doi.org/10.15223/policy-029</dc:rights>
+        <bib:pages>1-7</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2024 2nd World Conference on Communication &amp;amp; Computing (WCONF)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Article rdf:about="https://onlinelibrary.wiley.com/doi/abs/10.1155/2018/5681652">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1687-5907"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zohaib</foaf:surname>
+                        <foaf:givenName>Mohammad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_25"/>
+        <link:link rdf:resource="#item_26"/>
+        <dc:title>Dynamic Difficulty Adjustment (DDA) in Computer Games: A Review</dc:title>
+        <dcterms:abstract>Dynamic difficulty adjustment (DDA) is a method of automatically modifying a game’s features, behaviors, and scenarios in real-time, depending on the player’s skill, so that the player, when the game is very simple, does not feel bored or frustrated, when it is very difficult. The intent of the DDA is to keep the player engrossed till the end and to provide him/her with a challenging experience. In traditional games, difficulty levels increase linearly or stepwise during the course of the game. The features such as frequency, starting levels, or rates can be set only at the beginning of the game by choosing a level of difficulty. This can, however, result in a negative experience for players as they try to map a predecided learning curve. DDA attempts to solve this problem by presenting a customized solution for the gamers. This paper provides a review of the current approaches to DDA.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Dynamic Difficulty Adjustment (DDA) in Computer Games</z:shortTitle>
+        <z:libraryCatalog>Wiley Online Library</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/abs/10.1155/2018/5681652</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:27:39</dcterms:dateSubmitted>
+        <dc:rights>Copyright © 2018 Mohammad Zohaib.</dc:rights>
+        <dc:description>_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1155/2018/5681652</dc:description>
+        <bib:pages>5681652</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1687-5907">
+        <prism:volume>2018</prism:volume>
+        <dc:title>Advances in Human-Computer Interaction</dc:title>
+        <dc:identifier>DOI 10.1155/2018/5681652</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 1687-5907</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_25">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/25/Zohaib - 2018 - Dynamic Difficulty Adjustment (DDA) in Computer Games A Review.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/2018/5681652</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:27:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_26">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/26/5681652.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/10.1155/2018/5681652</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:27:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4503-9066-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4503-9066-8</dc:identifier>
+                <dc:title>Ninth International Conference on Technological Ecosystems for Enhancing Multiculturality (TEEM'21)</dc:title>
+                <dc:identifier>DOI 10.1145/3486011.3486447</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Barcelona Spain</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>ACM</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Knorr</foaf:surname>
+                        <foaf:givenName>Johann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vaz De Carvalho</foaf:surname>
+                        <foaf:givenName>Carlos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Using Dynamic Difficulty Adjustment to Improve the Experience and Train FPS Gamers</dc:title>
+        <dc:date>2021-10-26</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dl.acm.org/doi/10.1145/3486011.3486447</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:29:40</dcterms:dateSubmitted>
+        <bib:pages>195-200</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>TEEM'21: Ninth International Conference on Technological Ecosystems for Enhancing Multiculturality</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Article rdf:about="https://digitalcommons.morris.umn.edu/horizons/vol9/iss1/7">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2576-2176"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vang</foaf:surname>
+                        <foaf:givenName>Chineng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_29"/>
+        <dc:title>The Impact of Dynamic Difficulty Adjustment on Player Experience in Video Games</dc:title>
+        <dc:date>2022-03-06</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://digitalcommons.morris.umn.edu/horizons/vol9/iss1/7</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:30:03</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2576-2176">
+        <prism:volume>9</prism:volume>
+        <dc:title>Scholarly Horizons: University of Minnesota, Morris Undergraduate Journal</dc:title>
+        <dc:identifier>DOI 10.61366/2576-2176.1105</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Scholarly Horizons: University of Minnesota, Morris Undergraduate Journal</dcterms:alternative>
+        <dc:identifier>ISSN 2576-2176</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_29">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/29/Vang - 2022 - The Impact of Dynamic Difficulty Adjustment on Player Experience in Video Games.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://digitalcommons.morris.umn.edu/cgi/viewcontent.cgi?article=1105&amp;context=horizons</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:30:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ewadirect.com/proceedings/ace/article/view/15374">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2755-2721,%202755-273X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zheng</foaf:surname>
+                        <foaf:givenName>Tianyi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_31"/>
+        <dc:title>Dynamic difficulty adjustment using deep reinforcement learning: A review</dc:title>
+        <dcterms:abstract>With the evolution of the gaming industry, there is an increasing demand for games that offer immersive experiences beyond basic gratification. Traditional games with fixed difficulty levels often fail to cater to the diverse preferences and skills of players. To address these needs, dynamic difficulty adjustment (DDA) has emerged as a crucial element in game design. This review explores the application of Deep Reinforcement Learning (DRL) in achieving DDA, contrasting it with traditional methods. By examining various DRL algorithms and their effectiveness, as well as evaluating traditional models, this review identifies the potential of DRL in enhancing player experiences and outlines existing challenges. It also highlights future research directions, including the integration of DRL with Flow Theory and innovative evaluation methods. The goal is to provide a comprehensive overview of how DRL can advance game design and improve player satisfaction.</dcterms:abstract>
+        <dc:date>2024-9-2</dc:date>
+        <z:shortTitle>Dynamic difficulty adjustment using deep reinforcement learning</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ewadirect.com/proceedings/ace/article/view/15374</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:30:35</dcterms:dateSubmitted>
+        <bib:pages>157-162</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2755-2721,%202755-273X">
+        <prism:volume>71</prism:volume>
+        <dc:title>Applied and Computational Engineering</dc:title>
+        <dc:identifier>DOI 10.54254/2755-2721/71/20241633</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>ACE</dcterms:alternative>
+        <dc:identifier>ISSN 2755-2721, 2755-273X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_31">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/31/Zheng - 2024 - Dynamic difficulty adjustment using deep reinforcement learning A review.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ewadirect.com/proceedings/ace/article/view/15374/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:30:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2007.07220">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>2019 IEEE CHILEAN Conference on Electrical, Electronics Engineering, Information and Communication Technologies (CHILECON)</dc:title>
+                <dc:identifier>DOI 10.1109/CHILECON47746.2019.8988068</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sepulveda</foaf:surname>
+                        <foaf:givenName>Gabriel K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Besoain</foaf:surname>
+                        <foaf:givenName>Felipe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barriga</foaf:surname>
+                        <foaf:givenName>Nicolas A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_33"/>
+        <link:link rdf:resource="#item_34"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Exploring Dynamic Difficulty Adjustment in Videogames</dc:title>
+        <dcterms:abstract>Videogames are nowadays one of the biggest entertainment industries in the world. Being part of this industry means competing against lots of other companies and developers, thus, making fanbases of vital importance. They are a group of clients that constantly support your company because your video games are fun. Videogames are most entertaining when the difficulty level is a good match for the player's skill, increasing the player engagement. However, not all players are equally proficient, so some kind of difficulty selection is required. In this paper, we will present Dynamic Difficulty Adjustment (DDA), a recently arising research topic, which aims to develop an automated difficulty selection mechanism that keeps the player engaged and properly challenged, neither bored nor overwhelmed. We will present some recent research addressing this issue, as well as an overview of how to implement it. Satisfactorily solving the DDA problem directly affects the player's experience when playing the game, making it of high interest to any game developer, from independent ones, to 100 billion dollar businesses, because of the potential impacts in player retention and monetization.</dcterms:abstract>
+        <dc:date>11/2019</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2007.07220</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:31:14</dcterms:dateSubmitted>
+        <dc:description>arXiv:2007.07220 [cs]</dc:description>
+        <bib:pages>1-6</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_33">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/33/Sepulveda et al. - 2019 - Exploring Dynamic Difficulty Adjustment in Videogames.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/2007.07220v1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:31:15</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/34/2007.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2007.07220</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:31:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ieeexplore.ieee.org/document/10562290/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2169-3536"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mienye</foaf:surname>
+                        <foaf:givenName>Ibomoiye Domor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jere</foaf:surname>
+                        <foaf:givenName>Nobert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_36"/>
+        <dc:title>A Survey of Decision Trees: Concepts, Algorithms, and Applications</dc:title>
+        <dc:date>2024</dc:date>
+        <z:shortTitle>A Survey of Decision Trees</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10562290/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:31:48</dcterms:dateSubmitted>
+        <dc:rights>https://creativecommons.org/licenses/by/4.0/legalcode</dc:rights>
+        <bib:pages>86716-86727</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2169-3536">
+        <prism:volume>12</prism:volume>
+        <dc:title>IEEE Access</dc:title>
+        <dc:identifier>DOI 10.1109/ACCESS.2024.3416838</dc:identifier>
+        <dcterms:alternative>IEEE Access</dcterms:alternative>
+        <dc:identifier>ISSN 2169-3536</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/36/Mienye and Jere - 2024 - A Survey of Decision Trees Concepts, Algorithms, and Applications.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=10562290&amp;ref=</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:31:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://shanghaiarchivesofpsychiatry.org/en/215044.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_38"/>
+        <dc:title>Decision tree methods: applications for classification and prediction - Shanghai Carchives of Psychiatry</dc:title>
+        <dcterms:abstract>Decision tree methodology is a commonly used data mining method for establishing classification systems based on multiple covariates or for developing</dcterms:abstract>
+        <dc:date>2015-04-16T15:32:31+00:00</dc:date>
+        <z:language>en-US</z:language>
+        <z:shortTitle>Decision tree methods</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://shanghaiarchivesofpsychiatry.org/en/215044.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:32:49</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_38">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/38/215044.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://shanghaiarchivesofpsychiatry.org/en/215044.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:32:55</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4466856/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1002-0829"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>SONG</foaf:surname>
+                        <foaf:givenName>Yan-yan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>LU</foaf:surname>
+                        <foaf:givenName>Ying</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_41"/>
+        <link:link rdf:resource="#item_40"/>
+        <dc:title>Decision tree methods: applications for classification and prediction</dc:title>
+        <dcterms:abstract>Decision tree methodology is a commonly used data mining method for establishing classification systems based on multiple covariates or for developing prediction algorithms for a target variable. This method classifies a population into branch-like segments that construct an inverted tree with a root node, internal nodes, and leaf nodes. The algorithm is non-parametric and can efficiently deal with large, complicated datasets without imposing a complicated parametric structure. When the sample size is large enough, study data can be divided into training and validation datasets. Using the training dataset to build a decision tree model and a validation dataset to decide on the appropriate tree size needed to achieve the optimal final model. This paper introduces frequently used algorithms used to develop decision trees (including CART, C4.5, CHAID, and QUEST) and describes the SPSS and SAS programs that can be used to visualize tree structure.</dcterms:abstract>
+        <dc:date>2015-4-25</dc:date>
+        <z:shortTitle>Decision tree methods</z:shortTitle>
+        <z:libraryCatalog>PubMed Central</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4466856/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:34:19</dcterms:dateSubmitted>
+        <dc:description>PMID: 26120265
+PMCID: PMC4466856</dc:description>
+        <bib:pages>130-135</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1002-0829">
+        <prism:volume>27</prism:volume>
+        <dc:title>Shanghai Archives of Psychiatry</dc:title>
+        <dc:identifier>DOI 10.11919/j.issn.1002-0829.215044</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Shanghai Arch Psychiatry</dcterms:alternative>
+        <dc:identifier>ISSN 1002-0829</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/41/SONG and LU - 2015 - Decision tree methods applications for classification and prediction.pdf"/>
+        <dc:title>PubMed Central Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pmc.ncbi.nlm.nih.gov/articles/PMC4466856/pdf/sap-27-02-130.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:34:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_40">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed Central Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4466856/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:34:19</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s11042-023-14515-w">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1380-7501,%201573-7721"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chrysafiadi</foaf:surname>
+                        <foaf:givenName>Konstantina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kamitsios</foaf:surname>
+                        <foaf:givenName>Margaritis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Virvou</foaf:surname>
+                        <foaf:givenName>Maria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_43"/>
+        <dc:title>Fuzzy-based dynamic difficulty adjustment of an educational 3D-game</dc:title>
+        <dcterms:abstract>Abstract
+            An educational game aims to employ the pleasant and fascinating environment of a game for educational purpose. However, when the game’s educational content or playing environment does not match with the player’s learning needs or game-playing skills, the player can find the game either too easy or too difficult and decide to drop it. Therefore, a successful educational game has to offer Dynamic Difficulty Adjustment (DDA) of both the game’s educational content and the game’s playing environment. Considering the above, in this paper a fuzzy-based DDA mechanism of a 3D-game, that teaches the programming language ‘HTML’, is presented. The game adapts dynamically the difficulty of battles and mazes navigation to each individual player’s skills. The novelty of the presented game lies on the application of DDA in the two dimensions (educational content and playing environment) of an educational game and on the use of fuzzy logic for succeeding balance between the game’s difficulty and the user’s playing skills. The adaptation is realized in real-time, during the playing and not each time the player changes game level/track. Furthermore, fuzzy logic allows to apply DDA without the need of many learning data, like other Artificial Intelligence techniques for DDA (i.e. machine learning techniques). The presented game was evaluated through a comparative evaluation, which included questionnaires, an experiment in real conditions and t-test statistical analysis method. The evaluation results showed that the incorporated adaptation mechanism increases the user’s motivation and succeeds to keep players’ interest for the game undiminished.</dcterms:abstract>
+        <dc:date>07/2023</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s11042-023-14515-w</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:35:29</dcterms:dateSubmitted>
+        <bib:pages>27525-27549</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1380-7501,%201573-7721">
+        <prism:volume>82</prism:volume>
+        <dc:title>Multimedia Tools and Applications</dc:title>
+        <dc:identifier>DOI 10.1007/s11042-023-14515-w</dc:identifier>
+        <prism:number>18</prism:number>
+        <dcterms:alternative>Multimed Tools Appl</dcterms:alternative>
+        <dc:identifier>ISSN 1380-7501, 1573-7721</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_43">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/43/Chrysafiadi et al. - 2023 - Fuzzy-based dynamic difficulty adjustment of an educational 3D-game.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007/s11042-023-14515-w.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:35:31</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://jair.org/index.php/jair/article/view/11099">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1076-9757"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vodopivec</foaf:surname>
+                        <foaf:givenName>Tom</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Samothrakis</foaf:surname>
+                        <foaf:givenName>Spyridon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ster</foaf:surname>
+                        <foaf:givenName>Branko</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_45"/>
+        <dc:title>On Monte Carlo Tree Search and Reinforcement Learning</dc:title>
+        <dcterms:abstract>Fuelled by successes in Computer Go, Monte Carlo tree search (MCTS) has achieved widespread adoption within the games community. Its links to traditional reinforcement learning (RL) methods have been outlined in the past; however, the use of RL techniques within tree search has not been thoroughly studied yet. In this paper we re-examine in depth this close relation between the two fields; our goal is to improve the cross-awareness between the two communities. We show that a straightforward adaptation of RL semantics within tree search can lead to a wealth of new algorithms, for which the traditional MCTS is only one of the variants. We confirm that planning methods inspired by RL in conjunction with online search demonstrate encouraging results on several classic board games and in arcade video game competitions, where our algorithm recently ranked first. Our study promotes a unified view of learning, planning, and search.</dcterms:abstract>
+        <dc:date>2017-12-20</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>jair.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jair.org/index.php/jair/article/view/11099</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:36:29</dcterms:dateSubmitted>
+        <dc:rights>Copyright (c)</dc:rights>
+        <bib:pages>881-936</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1076-9757">
+        <prism:volume>60</prism:volume>
+        <dc:title>Journal of Artificial Intelligence Research</dc:title>
+        <dc:identifier>DOI 10.1613/jair.5507</dc:identifier>
+        <dc:identifier>ISSN 1076-9757</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_45">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/45/Vodopivec et al. - 2017 - On Monte Carlo Tree Search and Reinforcement Learning.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jair.org/index.php/jair/article/download/11099/26289</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:36:32</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2407.03049">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>2016 IEEE Conference on Computational Intelligence and Games (CIG)</dc:title>
+                <dc:identifier>DOI 10.1109/CIG.2016.7860448</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soemers</foaf:surname>
+                        <foaf:givenName>Dennis J. N. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sironi</foaf:surname>
+                        <foaf:givenName>Chiara F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schuster</foaf:surname>
+                        <foaf:givenName>Torsten</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Winands</foaf:surname>
+                        <foaf:givenName>Mark H. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_47"/>
+        <link:link rdf:resource="#item_48"/>
+        <link:link rdf:resource="#item_49"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Enhancements for Real-Time Monte-Carlo Tree Search in General Video Game Playing</dc:title>
+        <dcterms:abstract>General Video Game Playing (GVGP) is a field of Artificial Intelligence where agents play a variety of real-time video games that are unknown in advance. This limits the use of domain-specific heuristics. Monte-Carlo Tree Search (MCTS) is a search technique for game playing that does not rely on domain-specific knowledge. This paper discusses eight enhancements for MCTS in GVGP; Progressive History, N-Gram Selection Technique, Tree Reuse, Breadth-First Tree Initialization, Loss Avoidance, Novelty-Based Pruning, Knowledge-Based Evaluations, and Deterministic Game Detection. Some of these are known from existing literature, and are either extended or introduced in the context of GVGP, and some are novel enhancements for MCTS. Most enhancements are shown to provide statistically significant increases in win percentages when applied individually. When combined, they increase the average win percentage over sixty different games from 31.0% to 48.4% in comparison to a vanilla MCTS implementation, approaching a level that is competitive with the best agents of the GVG-AI competition in 2015.</dcterms:abstract>
+        <dc:date>9/2016</dc:date>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2407.03049</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:36:54</dcterms:dateSubmitted>
+        <dc:description>arXiv:2407.03049 [cs]</dc:description>
+        <bib:pages>1-8</bib:pages>
+    </rdf:Description>
+    <bib:Memo rdf:about="#item_47">
+        <rdf:value>Comment: Green Open Access version of conference paper published in 2016</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/48/Soemers et al. - 2016 - Enhancements for Real-Time Monte-Carlo Tree Search in General Video Game Playing.pdf"/>
+        <dc:title>Preprint PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/pdf/2407.03049v1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:36:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_49">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/49/2407.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2407.03049</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:37:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-5386-3233-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-5386-3233-8</dc:identifier>
+                <dc:title>2017 IEEE Conference on Computational Intelligence and Games (CIG)</dc:title>
+                <dc:identifier>DOI 10.1109/CIG.2017.8080415</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Demediuk</foaf:surname>
+                        <foaf:givenName>Simon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tamassia</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raffe</foaf:surname>
+                        <foaf:givenName>William L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zambetta</foaf:surname>
+                        <foaf:givenName>Fabio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Xiaodong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mueller</foaf:surname>
+                        <foaf:givenName>Florian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Monte Carlo tree search based algorithms for dynamic difficulty adjustment</dc:title>
+        <dc:date>8/2017</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/8080415/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:38:09</dcterms:dateSubmitted>
+        <bib:pages>53-59</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2017 IEEE Conference on Computational Intelligence and Games (CIG)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Thesis rdf:about="#item_51">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Reykjavík University</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Metz</foaf:surname>
+                        <foaf:givenName>Lucas A.E Pineda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_52"/>
+        <dc:title>An Evaluation of Unity ML-Agents Toolkit for Learning Boss Strategies</dc:title>
+        <dc:date>9/2020</dc:date>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_52">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/52/Metz - 2020 - An Evaluation of Unity ML-Agents Toolkit for Learning Boss Strategies.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.academia.edu/33601149/A_Survey_of_Behaviour_Trees_and_their_Applications_for_Game_AI_A_Survey_of_Behaviour_Trees_and_their_Applications_for_Game_AI">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McQuillan</foaf:surname>
+                        <foaf:givenName>Kim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_54"/>
+        <dc:title>A Survey of Behaviour Trees and their Applications for Game AI A Survey of Behaviour Trees and their Applications for Game AI</dc:title>
+        <dcterms:abstract>Behaviour Trees are relatively new, intuitive and versatile tools for Game Artificial Intelligence (Game AI). While they have been utilized in the development of a few major game releases, the commercial gaming industry is yet to harness their full</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>www.academia.edu</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/33601149/A_Survey_of_Behaviour_Trees_and_their_Applications_for_Game_AI_A_Survey_of_Behaviour_Trees_and_their_Applications_for_Game_AI</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:40:27</dcterms:dateSubmitted>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_54">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/54/A_Survey_of_Behaviour_Trees_and_their_Applications_for_Game_AI_A_Survey_of_Behaviour_Trees_and_.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.academia.edu/33601149/A_Survey_of_Behaviour_Trees_and_their_Applications_for_Game_AI_A_Survey_of_Behaviour_Trees_and_their_Applications_for_Game_AI</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:40:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_55">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/55/viewcontent.pdf"/>
+        <dc:title>viewcontent.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1367&amp;context=cistechlib</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:41:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://scholarworks.gvsu.edu/cistechlib/357">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Technical Library</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vuong</foaf:surname>
+                        <foaf:givenName>Andy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_57"/>
+        <dc:title>Artificial Intelligence - Modularity with Behavior Trees</dc:title>
+        <dc:date>2020-01-01</dc:date>
+        <z:libraryCatalog>COinS</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://scholarworks.gvsu.edu/cistechlib/357</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_57">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/57/357.html"/>
+        <dc:title>&quot;Artificial Intelligence - Modularity with Behavior Trees&quot; by Andy Vuong</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://scholarworks.gvsu.edu/cistechlib/357/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:42:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_58">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Aalborg University</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sejrsgaard-Jacobsen</foaf:surname>
+                        <foaf:givenName>Kenneth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_59"/>
+        <dc:title>DYNAMIC DIFFICULTY ADJUSTMENT USING BEHAVIOR TREES</dc:title>
+        <dc:date>6/2011</dc:date>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_59">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/59/Sejrsgaard-Jacobsen - 2011 - DYNAMIC DIFFICULTY ADJUSTMENT USING BEHAVIOR TREES.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_4">
+        <dc:title>Algorithms</dc:title>
+        <dcterms:hasPart rdf:resource="https://ieeexplore.ieee.org/document/10562290/"/>
+        <dcterms:hasPart rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4466856/"/>
+        <dcterms:hasPart rdf:resource="https://jair.org/index.php/jair/article/view/11099"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2407.03049"/>
+        <dcterms:hasPart rdf:resource="https://www.academia.edu/33601149/A_Survey_of_Behaviour_Trees_and_their_Applications_for_Game_AI_A_Survey_of_Behaviour_Trees_and_their_Applications_for_Game_AI"/>
+        <dcterms:hasPart rdf:resource="https://scholarworks.gvsu.edu/cistechlib/357"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_2">
+        <dc:title>DDA</dc:title>
+        <dcterms:hasPart rdf:resource="#item_3"/>
+        <dcterms:hasPart rdf:resource="#item_5"/>
+        <dcterms:hasPart rdf:resource="#item_9"/>
+        <dcterms:hasPart rdf:resource="#item_11"/>
+        <dcterms:hasPart rdf:resource="#item_15"/>
+        <dcterms:hasPart rdf:resource="https://www.frontiersin.org/article/10.3389/feduc.2020.00129/full"/>
+        <dcterms:hasPart rdf:resource="https://onlinelibrary.wiley.com/doi/abs/10.1155/2018/5681652"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-4503-9066-8"/>
+        <dcterms:hasPart rdf:resource="https://digitalcommons.morris.umn.edu/horizons/vol9/iss1/7"/>
+        <dcterms:hasPart rdf:resource="https://www.ewadirect.com/proceedings/ace/article/view/15374"/>
+        <dcterms:hasPart rdf:resource="http://arxiv.org/abs/2007.07220"/>
+        <dcterms:hasPart rdf:resource="https://link.springer.com/10.1007/s11042-023-14515-w"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-5386-3233-8"/>
+        <dcterms:hasPart rdf:resource="#item_58"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_1">
+        <dc:title>RL</dc:title>
+        <dcterms:hasPart rdf:resource="#item_1"/>
+        <dcterms:hasPart rdf:resource="#item_7"/>
+        <dcterms:hasPart rdf:resource="#item_13"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-6654-3632-8"/>
+        <dcterms:hasPart rdf:resource="#item_20"/>
+        <dcterms:hasPart rdf:resource="https://ieeexplore.ieee.org/document/10695161/"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:979-8-3503-9532-7"/>
+        <dcterms:hasPart rdf:resource="https://www.ewadirect.com/proceedings/ace/article/view/15374"/>
+        <dcterms:hasPart rdf:resource="#item_51"/>
+    </z:Collection>
+</rdf:RDF>
