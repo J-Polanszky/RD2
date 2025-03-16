@@ -35,9 +35,8 @@ Keywords
 \section{Introduction}
 
 % Introduction Section. Example citations: \cite{ronneberger2015unet} and \cite{latex2e}
-% TODO: Restructure a bit
+
 \subsection{Theme and Topic Rationale}
-% TODO: Cite the papers taken from the dissertation that are relevant to the topic, since the topic is similar to the disseration and as such, I already have the info i need without re reading.
 
 The Theme chosen is Decision-Making AI for Real-Time Strategy (RTS) Games, and will focus on comparing Finite State-Machine (FSMs) AI opponents traditionally used in games, against Machine Learning (ML) opponents, specifically 
 Reinforcement Learning (RL), and their impact on player experience. 
@@ -48,10 +47,7 @@ player experience. This study aims to address the research gap by directly compa
 and development cost of implementing RL agents is justified by the improvement in player experience.
 
 \subsection{Positioning and Research Onion}
-
-This research will be positioned within the gap of player experience found in literature, and will help in provided a better understanding on the role RL agents will play in the future of RTS games, building off of the
-work done by \cite{vinyals_grandmaster_2019} in their work on AlphaStar.
-
+This research addresses the gap in player experience found in the literature, building on the works of \cite{grech_creating_2023} and \cite{vinyals_grandmaster_2019} on AlphaStar by providing a better understanding on the role RL agents will play in the future of RTS games.
 As can be seen in Figure \ref{fig:research_onion}, this study will follow a positivist research paradigm, following a deductive and experimental approach, gathering both quantitative and qualitative data to measure player experience.
 
 \begin{figure}[htbp]
@@ -62,14 +58,15 @@ As can be seen in Figure \ref{fig:research_onion}, this study will follow a posi
 \end{figure}
 
 \subsection{Background to the Research Theme}
-% TODO: Add references to papers from dissertation, and maybe expand
 Game AI has evolved significantly over the years, especially in RTS games. Early RTS titles, such as StarCraft, relied on Finite State Machines (FSMs) for their AI decision-making. These FSM-based approached
-are deterministic and predictable, which can lead to repetitive and boring gameplay, and allow players to exploit the gameplay patters of the AI.
+are deterministic and predictable, which can lead to repetitive and boring gameplay, and allow players to exploit the gameplay patters of the AI. \cite{vinyals_grandmaster_2019}
 
 More recently, RL has emerged as an alternative AI approach, taking advantage of advancements in ML and computer hardware. In games such as AlphaStar \cite{vinyals_grandmaster_2019}, RL agents were able to 
-demonstrate adaptive and human-like behaviour, providing a more challenging and engaging experience for players. Despite all of this, the implementation of RL in commercial games remains limited due to
-the high computational cost, long training and development times, and added complexity. 
+demonstrate adaptive and human-like behaviour, providing a more challenging and engaging experience for players. Another paper that highlights this is the work done by Grech \cite{grech_creating_2023}, 
+where he created multiple difficulties of AI opponents using RL, and found that players reported higher levels of enjoyment and immersion. A similar study is the one done by \cite{bin_ramlan_implementation_2021},
+where they trained an RL agent to act as an opponent in a fighting game, with the agent being able to adapt to the player's skill level, and provide a more engaging experience, similar to the work done by \cite{vinyals_grandmaster_2019}
 
+Despite all of this, the implementation of RL in commercial games remains limited due to the high computational cost, long training and development times, and added complexity. 
 This further proves the need for research in this area, and in evaluating if the benefits of RL agents in RTS games are worth the cost compared to traditional FSMs.
 
 \subsection{Hypothesis}
@@ -78,11 +75,12 @@ Players report a higher level of enjoyment and improved experience when playing 
 
 \subsection{Independent \& Dependent Variables}
 
-% Explain the difference between independent and dependent variables
+Independent variables are variables that are manipulated by the researcher, and are mainly used to influence the dependant variables. Dependant variables are what happen as a result of the independant variables,
+and are what the researcher is interested in measuring.
 
-In this study, there will only be 1 independent variable, and that is the type of AI opponent. As for dependant variables, there will be multiple, with those being player experience, player immersion, and 
-perceived difficulty. Player experience will be measured through surveys and engagement metrics, player immersion will be measured through surveys and validated game design principles, and perceived difficulty
-will be measured through surveys, player feedback, and engagement metrics.
+The independent variable in this study is the type of AI opponent. The dependant variables, those are player experience, player immersion, and perceived difficulty.
+Player experience will be measured through surveys and engagement metrics, player immersion will be measured through surveys and validated game design principles, and perceived difficulty will be measured through 
+surveys, player feedback, and engagement metrics.
 
 \subsection{Research Aim}
 
