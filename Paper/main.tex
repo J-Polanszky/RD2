@@ -106,9 +106,50 @@ in making more informed decisions regarding AI decision-making strategies in RTS
 
 \section{Literature Review}
 
+% The difference between academic and non academic literature is that academic literature is peer-reviewed, and is as such, more reliable and trustworthy
+% than non-academic literature, which can easily be biased or contain false information. Academic literature can also be more in-depth and detailed, due to
+% the high research standards and requirements of academic institutions, especially IEEE.
+
+% TODO: Filter through the papers in zotero and remove the excessive/unnecessary ones while developing the literature map and review.
+
 Literature review goes here
 
+% Mention Csikszentmihalyi's flow theory and how it relates to player experience and immersion in games.
+
+The goal of a game developer is to create a game that is fun and engaging, and they do this by creating a game that is challenging, but not too challenging.
+As Csikszentmihalyi's flow theory states, the goal of a game is to create a state of flow, where the player is fully immersed in the game, and is not
+bored, but also not overwhelmed. There are many ways to achieve this, and one of them is through the use of AI opponents. Traditionally, FSMs are
+used as AI opponents, as they are simple to implement and easy to understand, and when done correctly, provide a good challenge to the player.
+However, given enough time, players can learn the patterns of the FSMs, and exploit them, making the game feel boring. It is possible to combat this
+through weakening the player, or making the AI more difficult, as is done in Souls-like games, however this can prove too challenging and overwhelm the player,
+once again breaking the flow. 
+
+RL agents, on the other hand, are able to learn how to play the game, and as such, adapt to the player and given scenario. This creates a more engaging
+and immersive experience, as the player feels like they are playing against a real opponent, and not just a computer. This is especially true in RTS games,
+due to the complexity of the game, and the many strategies that can be taken, which can be seen in the work done by \cite{vinyals_grandmaster_2019}.
+There is an issue with this, however, as not only are RL Agents computationally expensive, but they can be trained too far, and become too difficult for the player,
+once again breaking the flow state. In the work done by \cite{grech_creating_2023}, they balance this by taking snapshots of the RL agent at different
+stages in training. This allows them to create different difficulties of AI opponents, which can be used to better match a player's skill level. 
+
+% Another way of doing this, is by building dynamic difficulty adjustment (DDA) systems into the opponent, which work by adjusting the rewards and punishments
+% of the agent to make them easier or harder to play against (Add citation from zotero.).
+
+% Go about comparing these 3 different approaches, and how they always compare the performance of the RL agent, and not the player experience.
+
 \section{Research Methodology}
+
+% Research Questions:
+
+% 1. How do RL and FSM AI opponents compare in terms of player experience in RTS games?
+% 2. What are the key factors that influence player experience when playing against RL and FSM AI opponents in RTS games?
+% 3. How do RL and FSM AI opponents impact player immersion in RTS games?
+
+% Research objective:
+
+% The objective for the research is to evaluate the impact of RL and FSM opponents in RTS games, and to determin their impact on player experience and immersion,
+% and what are the key factors that cause this impact/infuence. This is to be done by creating a simple RTS game, and implementing both RL and FSM agents,
+% and then conducting a play test experiment with players, where both groups will then be surveyed to gather data on their experience. Along with this,
+% data gathered during the playtest through unity analytics will be used to measure player engagement and immersion.
 
 Research Methodology goes here
 
