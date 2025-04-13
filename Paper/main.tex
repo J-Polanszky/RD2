@@ -15,9 +15,9 @@
 \title{Comparing Reinforcement Learning and Finite State Machine Agents in Real Time Strategy Games: Impact on Player Experience}
 
 \author{\IEEEauthorblockN{Joshua Polanszky}
-\IEEEauthorblockA{\textit{Institute of Information Communication Technology} \\
-\textit{Malta College of Arts Science and Technology}}
-Paola, Malta
+	\IEEEauthorblockA{\textit{Institute of Information Communication Technology} \\
+		\textit{Malta College of Arts Science and Technology}}
+	Paola, Malta
 }
 
 \date{\today}
@@ -25,11 +25,11 @@ Paola, Malta
 \maketitle
 
 \begin{abstract}
-abstract
+	abstract
 \end{abstract}
 
 \begin{IEEEkeywords}
-Keywords
+	Keywords
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -38,8 +38,8 @@ Keywords
 
 \subsection{Theme and Topic Rationale}
 
-The Theme chosen is Decision-Making AI for Real-Time Strategy (RTS) Games, and will focus on comparing Finite State-Machine (FSMs) AI opponents traditionally used in games, against Machine Learning (ML) opponents, specifically 
-Reinforcement Learning (RL), and their impact on player experience. 
+The Theme chosen is Decision-Making AI for Real-Time Strategy (RTS) Games, and will focus on comparing Finite State-Machine (FSMs) AI opponents traditionally used in games, against Machine Learning (ML) opponents, specifically
+Reinforcement Learning (RL), and their impact on player experience.
 
 Game AI plays a huge role in player experience and immersion, as they provide the challenge and unpredictability that makes games fun and engaging.
 While extensive research has been conducted on the topic, most have focused more on the pure performance of the RL agent, and/or its impact on player experience, never directly
@@ -52,22 +52,22 @@ This research addresses the gap in player experience found in the literature, bu
 As can be seen in Figure \ref{fig:research_onion}, this study will follow a positivist research paradigm, following a deductive and experimental approach, gathering both quantitative and qualitative data to measure player experience.
 
 \begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.45\textwidth]{../Images/Research_Onion.PNG}
-    \caption{Research Onion}
-    \label{fig:research_onion}
+	\centering
+	\includegraphics[width=0.45\textwidth]{../Images/Research_Onion.PNG}
+	\caption{Research Onion}
+	\label{fig:research_onion}
 \end{figure}
 
 \subsection{Background to the Research Theme}
 Game AI has evolved significantly over the years, especially in RTS games. Early RTS titles, such as StarCraft, relied on Finite State Machines (FSMs) for their AI decision-making. These FSM-based approached
 are deterministic and predictable, which can lead to repetitive and boring gameplay, and allow players to exploit the gameplay patters of the AI. \cite{vinyals_grandmaster_2019}
 
-More recently, RL has emerged as an alternative AI approach, taking advantage of advancements in ML and computer hardware. In games such as AlphaStar \cite{vinyals_grandmaster_2019}, RL agents were able to 
-demonstrate adaptive and human-like behaviour, providing a more challenging and engaging experience for players. Another paper that highlights this is the work done by Grech \cite{grech_creating_2023}, 
+More recently, RL has emerged as an alternative AI approach, taking advantage of advancements in ML and computer hardware. In games such as AlphaStar \cite{vinyals_grandmaster_2019}, RL agents were able to
+demonstrate adaptive and human-like behaviour, providing a more challenging and engaging experience for players. Another paper that highlights this is the work done by Grech \cite{grech_creating_2023},
 where he created multiple difficulties of AI opponents using RL, and found that players reported higher levels of enjoyment and immersion. A similar study is the one done by \cite{bin_ramlan_implementation_2021},
 where they trained an RL agent to act as an opponent in a fighting game, with the agent being able to adapt to the player's skill level, and provide a more engaging experience, similar to the work done by \cite{vinyals_grandmaster_2019}
 
-Despite all of this, the implementation of RL in commercial games remains limited due to the high computational cost, long training and development times, and added complexity. 
+Despite all of this, the implementation of RL in commercial games remains limited due to the high computational cost, long training and development times, and added complexity.
 This further proves the need for research in this area, and in evaluating if the benefits of RL agents in RTS games are worth the cost compared to traditional FSMs.
 
 \subsection{Hypothesis}
@@ -80,7 +80,7 @@ Independent variables are variables that are manipulated by the researcher, and 
 and are what the researcher is interested in measuring.
 
 The independent variable in this study is the type of AI opponent. The dependant variables, those are player experience, player immersion, and perceived difficulty.
-Player experience will be measured through surveys and engagement metrics, player immersion will be measured through surveys and validated game design principles, and perceived difficulty will be measured through 
+Player experience will be measured through surveys and engagement metrics, player immersion will be measured through surveys and validated game design principles, and perceived difficulty will be measured through
 surveys, player feedback, and engagement metrics.
 
 \subsection{Research Aim}
@@ -91,9 +91,9 @@ is justified by the improvement in player experience for RL agents.
 To be more specific, the study will focus on the following research objectives:
 
 \begin{itemize}
-    \item Compare player-reported enjoyment and engagement levels when playing against RL and FSM AI opponents in RTS games.
-    \item Assess the impact of RL and FSM AI opponents on player immersion in RTS games.
-    \item Determine if the computational and development costs and complexity of RL justify its implementation over FSMs in RTS games.
+	\item Compare player-reported enjoyment and engagement levels when playing against RL and FSM AI opponents in RTS games.
+	\item Assess the impact of RL and FSM AI opponents on player immersion in RTS games.
+	\item Determine if the computational and development costs and complexity of RL justify its implementation over FSMs in RTS games.
 \end{itemize}
 
 \subsection{Purpose Statement}
@@ -106,9 +106,9 @@ in making more informed decisions regarding AI decision-making strategies in RTS
 
 \section{Literature Review}
 
-% The difference between academic and non academic literature is that academic literature is peer-reviewed, and is as such, more reliable and trustworthy
-% than non-academic literature, which can easily be biased or contain false information. Academic literature can also be more in-depth and detailed, due to
-% the high research standards and requirements of academic institutions, especially IEEE.
+The difference between academic and non academic literature is that academic literature is peer-reviewed, and is as such, more reliable and trustworthy
+than non-academic literature, which can easily be biased or contain false information. Academic literature can also be more in-depth and detailed, due to
+the high research standards and requirements of academic institutions, especially IEEE.
 
 % TODO: Filter through the papers in zotero and remove the excessive/unnecessary ones while developing the literature map and review.
 
@@ -122,14 +122,14 @@ bored, but also not overwhelmed. There are many ways to achieve this, and one of
 used as AI opponents, as they are simple to implement and easy to understand, and when done correctly, provide a good challenge to the player.
 However, given enough time, players can learn the patterns of the FSMs, and exploit them, making the game feel boring. It is possible to combat this
 through weakening the player, or making the AI more difficult, as is done in Souls-like games, however this can prove too challenging and overwhelm the player,
-once again breaking the flow. 
+once again breaking the flow.
 
 RL agents, on the other hand, are able to learn how to play the game, and as such, adapt to the player and given scenario. This creates a more engaging
 and immersive experience, as the player feels like they are playing against a real opponent, and not just a computer. This is especially true in RTS games,
 due to the complexity of the game, and the many strategies that can be taken, which can be seen in the work done by \cite{vinyals_grandmaster_2019}.
 There is an issue with this, however, as not only are RL Agents computationally expensive, but they can be trained too far, and become too difficult for the player,
 once again breaking the flow state. In the work done by \cite{grech_creating_2023}, they balance this by taking snapshots of the RL agent at different
-stages in training. This allows them to create different difficulties of AI opponents, which can be used to better match a player's skill level. 
+stages in training. This allows them to create different difficulties of AI opponents, which can be used to better match a player's skill level.
 
 % Another way of doing this, is by building dynamic difficulty adjustment (DDA) systems into the opponent, which work by adjusting the rewards and punishments
 % of the agent to make them easier or harder to play against (Add citation from zotero.).
@@ -138,20 +138,45 @@ stages in training. This allows them to create different difficulties of AI oppo
 
 \section{Research Methodology}
 
-% Research Questions:
+\subsection{Research Questions}
 
-% 1. How do RL and FSM AI opponents compare in terms of player experience in RTS games?
-% 2. What are the key factors that influence player experience when playing against RL and FSM AI opponents in RTS games?
-% 3. How do RL and FSM AI opponents impact player immersion in RTS games?
+1. How do RL and FSM AI opponents compare in terms of player experience in RTS games?
+2. What are the key factors that influence player experience when playing against RL and FSM AI opponents in RTS games?
+3. How do RL and FSM AI opponents impact player immersion in RTS games?
 
-% Research objective:
+\subsection{Research objectives}
 
-% The objective for the research is to evaluate the impact of RL and FSM opponents in RTS games, and to determin their impact on player experience and immersion,
-% and what are the key factors that cause this impact/infuence. This is to be done by creating a simple RTS game, and implementing both RL and FSM agents,
-% and then conducting a play test experiment with players, where both groups will then be surveyed to gather data on their experience. Along with this,
-% data gathered during the playtest through unity analytics will be used to measure player engagement and immersion.
+The objective for the research is to evaluate the impact of RL and FSM opponents in RTS games, and to determin their impact on player experience and immersion,
+and what are the key factors that cause this impact/infuence. This is to be done by creating a simple RTS game, and implementing both RL and FSM agents,
+and then conducting a play test experiment with players, where both groups will then be surveyed to gather data on their experience. Along with this,
+data gathered during the playtest through unity analytics will be used to measure player engagement and immersion.
 
-Research Methodology goes here
+\subsection{Suitable Methodology}
+
+% TODO:
+
+\subsection{Description of methodology, design, and approach}
+
+Create a simple RTS game, and implement both RL and FSM agents. Conduct a deductive experiment, where players will be split into 2 groups,
+where the first group will play against the FSM, fill out a questionnaire to gather data on their experience, and then play against the RL agent,
+and again answer the questionnaire. The second group will do the same, but in reverse order, playing against the RL agent first, and then the FSM.
+The end of each experiment's questionnaires will have an open ended question, where players can provide feedback on their experience,
+which will be used to gather qualitative data on their experience. Qualitative data will be used to support the quantitative data gathered from
+the questionnaires, as well as some in-game analytics and logs. This should help capture the more qualitative aspects of player experience,
+while still keeping everything quantitative and measurable. This should help in answering the research questions, and in determining the validity
+of the Hypothesis.
+
+\subsection{Reflection on validity and reliability of the research design}
+
+% TODO: 
+
+\subsection{Etical considerations}
+
+Since the playtest will not be conducted on minors, and will not involve any sensitive or identifiable data, the main ethical considerations
+would fall onto the type of content in the game, and if it is appropriate for the players. In this case, it will be a simple cartoon like game,
+so there should not be any issues with this. The participants will be informed of the nature of the game and the study, and be required to
+sign a consent form before participating, and will be free to withdraw at any time.
+
 
 \section{Findings}
 
