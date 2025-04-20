@@ -110,34 +110,40 @@ The difference between academic and non academic literature is that academic lit
 than non-academic literature, which can easily be biased or contain false information. Academic literature can also be more in-depth and detailed, due to
 the high research standards and requirements of academic institutions, especially IEEE.
 
-% TODO: Filter through the papers in zotero and remove the excessive/unnecessary ones while developing the literature map and review.
-
 The goal of a game developer is to create a game that is fun and engaging, and they achieve this by creating a game that is both challenging and rewarding, without being too difficult or frustrating.
 This leads into the concept of player experience, which is a subjective measure of how much a player enjoys a game, and is influenced by many factors. One of the most influential frameworks for understanding player
 experience is Csikszentmihalyi's flow theory \cite{csikszentmihalyi_flow_1990}, which describes a mental state in which a player is fully immersed, focused and involved in the game, leading to an improved sense of
 enjoyment and intrinsic motivation. According to Csikszentmihalyi, flow occurs when the challenges presented match the player's skill level, and multiple conditions must be met for players to enter this state.
 These are having clear goals, and immediate feedback, and when these conditions are met, players are more likely to lose track of time and become deeply immersed in the game world \cite{csikszentmihalyi_flow_1990}.
 
+% Explain more about FSMs?
+
 AI opponents play a critical role in maintaining this balance, as they provide the challenge and difficulty that the player must overcome. Traditionally FSMs are used for this, as they are simple to implement
 and easy to understand, and when done correctly, provide a good challenge to the player. However, given enough time, players can learn the patterns of the FSMs, and exploit them,
-making the game feel boring and leading to them falling out of the \textit{flow state}. It is possible to combat this through weakening the player, or making the AI more difficult,
-as is done in Souls-like games, however this can prove too challenging and overwhelm the player, as well as making the percieved balance seem unfair, once again breaking the flow.
+making the game feel boring and leading to them falling out of the \textit{flow state} \cite{noauthor_comparative_nodate}. It is possible to combat this through weakening the player, or making the AI more difficult,
+as is done in Souls-like games, however this can prove too challenging and overwhelm the player, as well as making the percieved balance seem unfair, once again breaking the flow \cite{jagdale_finite_2021} \cite{noauthor_finite_2020}.
 
 RL agents, on the other hand, are able to learn how to play the game, and as such, adapt to the player and given scenario. This creates a more engaging
 and immersive experience, as the player feels like they are playing against a real opponent, and not just a computer. This is especially true in RTS games,
-due to the complexity of the game, and the many strategies that can be taken, which can be seen in the work done by \cite{vinyals_grandmaster_2019}.
-There is an issue with this, however, as not only are RL Agents computationally expensive, but they can be trained too far, and become too difficult for the player,
-once again breaking the flow state. In the work done by \cite{grech_creating_2023}, they balance this by taking snapshots of the RL agent at different
-stages in training. This allows them to create different difficulties of AI opponents, which can be used to better match a player's skill level.
+due to the complexity of the game, and the many strategies that can be taken, which can be seen in the works done by \cite{vinyals_grandmaster_2019} and \cite{grech_creating_2023}.
+A common tool used in most of these papers is the Unity ML-Agents toolkit, which is a framework for training RL agents in Unity games, making it easier to implement and train RL agents for reasearch purposes.
+Along with that, most used the Proximal Policy Optimization (PPO) algorithm, which is a popular RL algorithm that is used for training agents in continuous action spaces, which is especially useful in real-time games.
 
-% Another way of doing this, is by building dynamic difficulty adjustment (DDA) systems into the opponent, which work by adjusting the rewards and punishments
-% of the agent to make them easier or harder to play against (Add citation from zotero.).
+% Itemise list of the 5 recommended papers for RL agents?
 
-% Go about comparing these 3 different approaches, and how they always compare the performance of the RL agent, and not the player experience.
+In the work done by \cite{vinyals_grandmaster_2019}, they trained an RL agent to play StarCraft II, and found that the agent was albe to not only learn how to play the game, but also adapt to the player's actions and strategies in real time.
+A similar result was found in the works done by \cite{bin_ramlan_implementation_2021} and \cite{raut_unity_2024}, where both used the Unity ML-Agents toolkit with PPO to train RL agents in 2 different genres.
+\cite{bin_ramlan_implementation_2021} trained an RL agent to play a fighting game, with rewards for moving closer to the player, landing attacks and winning, and penalties for being hit, missing and losing.
+\cite{raut_unity_2024} trained an RL agent to play a racing game, with the reward structure being based on the distance travelled and the time taken, which punishes the agent for crashing and/or taking too long.
+Combined, these 3 papers show the power of RL agents in real-time games, and their adaptability to the player, however they all share the same 2 flaws. The agents are computationally expensive to train, and to
+run, requiring a lot of time and resources not only for the developers, but also the players as they need to have a powerful enough computer to run the game and agent simultaneously. Along with that, the agents
+can become too difficult to play against, and as such break the flow state, as the player is unable to keep up with the agent's actions and strategies, especially if they are new to the game.
 
-% Have notes about papers locally, but have not formulated them into a proper literature review yet. Should focus on discussing their results, as most fall between the above 2 mentioned papers, and another one
-% which takes a different approach, which might be out of scope. Discuss the advantages and disadvantages of each approach, being balancing the difficulty using snapshots, and building DDA into the agent's
-% reward structure (fighting game paper)
+\cite{grech_creating_2023} tackled this issue by saving multiple snapshots of the agent during training, and using them to create different difficulties of AI opponents, similarly to how FSM diffifulties are created.
+Their results showed that players reported higher levels of enjoyment and immersion when playing against the RL agents, just like the previous works, with the key difference that new players were also able to enjoy
+the game. Their implementation was rather simple, and as such requires more research to be done in improving it and identifying if it is a viable solution to the issues of RL agents. Another option would be
+to build in a dynamic difficulty adjustment (DDA) system into either the agent or the game, as suggested by \cite{grech_creating_2023}, which would keep the rl agent's difficulty in check, while keeping its
+adaptability and unpredictability. This shows the gap in literature, both in the comparison of RL and FSM AI opponents, but also in managing the diffuculty of RL agents.
 
 \section{Research Methodology}
 
