@@ -1,0 +1,275 @@
+TY  - THES
+TI  - Creating Difficulty Levels with Reinforcement Learning in a Strategy Game
+AU  - Grech, Georg
+CY  - Paola, Malta
+DA  - 2023/06//
+PY  - 2023
+SP  - 97
+LA  - English
+M3  - Bachelor's
+PB  - Malta College of Arts Science and Technology (MCAST)
+L1  - files/2/Grech - Creating Difficulty Levels with Reinforcement Learning in a Strategy Game.pdf
+ER  - 
+
+TY  - CONF
+TI  - The Implementation of Reinforcement Learning Algorithm for AI Bot in Fighting Video Game
+AU  - Bin Ramlan, Adi Aiman
+AU  - Ali, Azliza Mohd
+AU  - Abdul Hamid, Nurzeatul Hamimah
+AU  - Osman, Rozianawaty
+T2  - 2021 4th International Symposium on Agents, Multi-Agent Systems and Robotics (ISAMSR)
+C1  - Batu Pahat, Malaysia
+C3  - 2021 4th International Symposium on Agents, Multi-Agent Systems and Robotics (ISAMSR)
+DA  - 2021/09/06/
+PY  - 2021
+DO  - 10.1109/ISAMSR53229.2021.9567749
+DP  - DOI.org (Crossref)
+SP  - 96
+EP  - 100
+PB  - IEEE
+SN  - 978-1-6654-3632-8
+UR  - https://ieeexplore.ieee.org/document/9567749/
+Y2  - 2025/03/16/10:20:20
+ER  - 
+
+TY  - CONF
+TI  - Enhancing Gameplay Experience Through Reinforcement Learning in Games
+AU  - Zhasulanov, Dinmukhammed
+AU  - Marat, Bekarys
+AU  - Erkin, Kuanysh
+AU  - Omirgaliyev, Ruslan
+AU  - Kushekkaliyev, Alman
+AU  - Zhakiyev, Nurkhat
+C3  - 2024 IEEE 4th International Conference on Smart Information Systems and Technologies (SIST)
+DA  - 2024///
+PY  - 2024
+DO  - 10.1109/SIST61555.2024.10629511
+SP  - 175
+EP  - 180
+KW  - Artificial intelligence
+KW  - Artificial Intelligence (AI)
+KW  - Data processing
+KW  - Economics
+KW  - Game
+KW  - Gameplay Experience
+KW  - Games
+KW  - Machine learning algorithms
+KW  - ML Agents
+KW  - Non-playable character (NPC)
+KW  - Reinforcement learning
+KW  - Reinforcement Learning
+KW  - Training
+KW  - Unity
+ER  - 
+
+TY  - JOUR
+TI  - Development of Deep-Learning-Based Autonomous Agents for Low-Speed Maneuvering in Unity
+AU  - Berta, Riccardo
+AU  - Lazzaroni, Luca
+AU  - Capello, Alessio
+AU  - Cossu, Marianna
+AU  - Forneris, Luca
+AU  - Pighetti, Alessandro
+AU  - Bellotti, Francesco
+T2  - Journal of Intelligent and Connected Vehicles
+DA  - 2024/09//
+PY  - 2024
+DO  - 10.26599/JICV.2023.9210039
+DP  - DOI.org (Crossref)
+VL  - 7
+IS  - 3
+SP  - 229
+EP  - 244
+J2  - J. Int. Con. Veh.
+SN  - 2399-9802
+UR  - https://ieeexplore.ieee.org/document/10695161/
+Y2  - 2025/03/16/10:25:04
+L1  - files/22/Berta et al. - 2024 - Development of Deep-Learning-Based Autonomous Agents for Low-Speed Maneuvering in Unity.pdf
+ER  - 
+
+TY  - CONF
+TI  - Unity ML-Agents: Revolutionizing Gaming Through Reinforcement Learning
+AU  - Raut, Umesh
+AU  - Galchhaniya, Prathmesh
+AU  - Nehete, Anish
+AU  - Shinde, Rohan
+AU  - Bhoite, Avaneesh
+T2  - 2024 2nd World Conference on Communication &amp; Computing (WCONF)
+C1  - RAIPUR, India
+C3  - 2024 2nd World Conference on Communication &amp; Computing (WCONF)
+DA  - 2024/07/12/
+PY  - 2024
+DO  - 10.1109/WCONF61366.2024.10692314
+DP  - DOI.org (Crossref)
+SP  - 1
+EP  - 7
+PB  - IEEE
+SN  - 979-8-3503-9532-7
+ST  - Unity ML-Agents
+UR  - https://ieeexplore.ieee.org/document/10692314/
+Y2  - 2025/03/16/10:25:36
+ER  - 
+
+TY  - JOUR
+TI  - Grandmaster level in StarCraft II using multi-agent reinforcement learning
+AU  - Vinyals, Oriol
+AU  - Babuschkin, Igor
+AU  - Czarnecki, Wojciech M.
+AU  - Mathieu, Michaël
+AU  - Dudzik, Andrew
+AU  - Chung, Junyoung
+AU  - Choi, David H.
+AU  - Powell, Richard
+AU  - Ewalds, Timo
+AU  - Georgiev, Petko
+AU  - Oh, Junhyuk
+AU  - Horgan, Dan
+AU  - Kroiss, Manuel
+AU  - Danihelka, Ivo
+AU  - Huang, Aja
+AU  - Sifre, Laurent
+AU  - Cai, Trevor
+AU  - Agapiou, John P.
+AU  - Jaderberg, Max
+AU  - Vezhnevets, Alexander S.
+AU  - Leblond, Rémi
+AU  - Pohlen, Tobias
+AU  - Dalibard, Valentin
+AU  - Budden, David
+AU  - Sulsky, Yury
+AU  - Molloy, James
+AU  - Paine, Tom L.
+AU  - Gulcehre, Caglar
+AU  - Wang, Ziyu
+AU  - Pfaff, Tobias
+AU  - Wu, Yuhuai
+AU  - Ring, Roman
+AU  - Yogatama, Dani
+AU  - Wünsch, Dario
+AU  - McKinney, Katrina
+AU  - Smith, Oliver
+AU  - Schaul, Tom
+AU  - Lillicrap, Timothy
+AU  - Kavukcuoglu, Koray
+AU  - Hassabis, Demis
+AU  - Apps, Chris
+AU  - Silver, David
+T2  - Nature
+AB  - Many real-world applications require artificial agents to compete and coordinate with other agents in complex environments. As a stepping stone to this goal, the domain of StarCraft has emerged as an important challenge for artificial intelligence research, owing to its iconic and enduring status among the most difficult professional esports and its relevance to the real world in terms of its raw complexity and multi-agent challenges. Over the course of a decade and numerous competitions1–3, the strongest agents have simplified important aspects of the game, utilized superhuman capabilities, or employed hand-crafted sub-systems4. Despite these advantages, no previous agent has come close to matching the overall skill of top StarCraft players. We chose to address the challenge of StarCraft using general-purpose learning methods that are in principle applicable to other complex domains: a multi-agent reinforcement learning algorithm that uses data from both human and agent games within a diverse league of continually adapting strategies and counter-strategies, each represented by deep neural networks5,6. We evaluated our agent, AlphaStar, in the full game of StarCraft II, through a series of online games against human players. AlphaStar was rated at Grandmaster level for all three StarCraft races and above 99.8% of officially ranked human players.
+DA  - 2019/11//
+PY  - 2019
+DO  - 10.1038/s41586-019-1724-z
+DP  - www.nature.com
+VL  - 575
+IS  - 7782
+SP  - 350
+EP  - 354
+LA  - en
+SN  - 1476-4687
+UR  - https://www.nature.com/articles/s41586-019-1724-z
+Y2  - 2025/03/16/12:10:21
+KW  - Computer science
+KW  - Statistics
+ER  - 
+
+TY  - CHAP
+TI  - Flow: The Psychology of Optimal Experience
+AU  - Csikszentmihalyi, Mihaly
+DA  - 1990/01//
+PY  - 1990
+ER  - 
+
+TY  - JOUR
+TI  - Comparative Analysis of Game Development Techniques: Using Finite State Machine, Physics Simulation, Path Finding, Event Handling
+AB  - This paper delves into the core techniques pivotal to game development: Finite State Machines (FSMs), Physics Simulation, Event Handling, and Path Finding. These techniques serve as pillars in defining the intricate behaviors and dynamics within games, influencing gameplay mechanics, realism, and the overall player experience. By conducting a comprehensive comparative analysis, the aim is to unveil the nuanced attributes of each technique, elucidating their strengths, weaknesses, and diverse applications within the realm of game development. Through this examination, developers can gain valuable insights into the optimal utilization of these techniques, enabling them to craft immersive and captivating gaming experiences tailored to their specific design objectives and player expectations.
+DP  - Zotero
+LA  - en
+L1  - files/66/Comparative Analysis of Game Development Techniques Using Finite State Machine, Physics Simulation,.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Finite State Machine in Game Development
+AU  - Jagdale, Devang
+AB  - Finite State Machine is one of the oldest techniques in gaming where it was used in old games like PACMAN and new games like TOMB RAIDER also. In all these games one major goal was to make non player characters more intelligent. There are some advance types also available but FSM still is one of the most used technique for non-player characters. The main goal of this paper is to explain how FSM works, how to create FSM and implement it in games using scripting or visual scripting. Hierarchical Finite State Machine is also discussed in this paper as it overcomes the limitations of older simple FSM. Using FSM, we can create intelligent AI agents. We can implement FSM and HFSM in games to make NPS’s behave like AI.
+DA  - 2021/10/22/
+PY  - 2021
+DO  - 10.48175/IJARSCT-2062
+DP  - ResearchGate
+SP  - 384
+EP  - 390
+L4  - https://www.researchgate.net/publication/355518086_Finite_State_Machine_in_Game_Development
+ER  - 
+
+TY  - ELEC
+TI  - Finite State Machine Explained
+T2  - freeCodeCamp.org
+AB  - The finite state machine (FSM) is a software design pattern where a given model transitions to other behavioral states through external input. Understanding the Finite State Machine A FSM is defined by its states, its initial state and the transition...
+DA  - 2020/01/06/T22:37:00.000Z
+PY  - 2020
+LA  - en
+UR  - https://www.freecodecamp.org/news/finite-state-machines/
+Y2  - 2025/04/20/13:06:28
+L2  - files/71/finite-state-machines.html
+ER  - 
+
+TY  - CONF
+TI  - Multi-Agent Reinforcement Learning System Using Value-Decomposition Network Algorithm in StarCraft Environment
+AU  - Abdulghani, Abdulghani M.
+AU  - Abdulghani, Mokhles M.
+AU  - Walters, Wilbur L.
+AU  - Abed, Khalid H.
+T2  - 2023 Congress in Computer Science, Computer Engineering, & Applied Computing (CSCE)
+AB  - Multi-Agent Reinforcement Learning (MARL) has been shown to be extremely successful in cooperative assignments. MARL allows for the control of multiple agents to complete multiple tasks in a certain environment and provide helpful services. In this paper, we will examine a war scenario with the StarCraft II Multi-Agent Challenges (SMAC) environment to implement a multi-agent system. For training, we employed one of the most popular MARL algorithms, which is the Value-Decomposition Network (VDN). This algorithm works on controlling the agents to cooperate with each other to achieve the desired goals. We will then use the battle won mean and the dead allies mean metrics to measure the performance of the VDN algorithm. The result showed that the VDN algorithm reaching the highest value of battle won mean with one million iterations and the lowest value of dead allies mean metrics with less than one million iterations. The hardware that we use in this work is CPU Cor i7 11800H, with 32 GB Ram and RTX 3080 laptop GPU, with CUDA Toolkit 11.7.1, and Pytorch 1.7.1.
+C3  - 2023 Congress in Computer Science, Computer Engineering, & Applied Computing (CSCE)
+DA  - 2023/07//
+PY  - 2023
+DO  - 10.1109/CSCE60160.2023.00053
+DP  - IEEE Xplore
+SP  - 309
+EP  - 312
+UR  - https://ieeexplore.ieee.org/document/10487385
+Y2  - 2025/04/24/09:07:48
+L2  - files/73/10487385.html
+KW  - AI
+KW  - Artificial Intelligence
+KW  - Graphics processing units
+KW  - Learning (artificial intelligence)
+KW  - Measurement
+KW  - Multi Autonomous agents
+KW  - Multi-Agent Reinforcement Learning (MARL)
+KW  - Portable computers
+KW  - Random access memory
+KW  - Reinforcement learning
+KW  - Reinforcement Learning (RL)
+KW  - StarCraft II Multi-Agent Challenges (SMAC) environment
+KW  - Training
+ER  - 
+
+TY  - JOUR
+TI  - On Efficient Reinforcement Learning for Full-length Game of StarCraft II
+AU  - Liu, Ruo-Ze
+AU  - Pang, Zhen-Jia
+AU  - Meng, Zhou-Yu
+AU  - Wang, Wenhai
+AU  - Yu, Yang
+AU  - Lu, Tong
+T2  - Journal of Artificial Intelligence Research
+AB  - StarCraft II (SC2) poses a grand challenge for reinforcement learning (RL), of which the main difficulties include huge state space, varying action space, and a long time horizon. In this work, we investigate a set of RL techniques for the full-length game of StarCraft II. We investigate a hierarchical RL approach, where the hierarchy involves two. One is the extracted macro-actions from experts’ demonstration trajectories to reduce the action space in an order of magnitude. The other is a hierarchical architecture of neural networks, which is modular and facilitates scale. We investigate a curriculum transfer training procedure that trains the agent from the simplest level to the hardest level. We train the agent on a single machine with 4 GPUs and 48 CPU threads. On a 64x64 map and using restrictive units, we achieve a win rate of 99% against the difficulty level-1 built-in AI. Through the curriculum transfer learning algorithm and a mixture of combat models, we achieve a 93% win rate against the most difficult non-cheating level built-in AI (level-7). In this extended version of the paper, we improve our architecture to train the agent against the most difficult cheating level AIs (level-8, level-9, and level-10). We also test our method on different maps to evaluate the extensibility of our approach. By a final 3-layer hierarchical architecture and applying significant tricks to train SC2 agents, we increase the win rate against the level-8, level-9, and level-10 to 96%, 97%, and 94%, respectively. Our codes and models are all open-sourced now at https://github.com/liuruoze/HierNet-SC2.
+To provide a baseline referring the AlphaStar for our work as well as the research and open-source community, we reproduce a scaled-down version of it, mini-AlphaStar (mAS). The latest version of mAS is 1.07, which can be trained using supervised learning and reinforcement learning on the raw action space which has 564 actions. It is designed to run training on a single common machine, by making the hyper-parameters adjustable and some settings simplified. We then can compare our work with mAS using the same computing resources and training time. By experiment results, we show that our method is more effective when using limited resources. The inference and training codes of mini-AlphaStar are all open-sourced at https://github.com/liuruoze/mini-AlphaStar. We hope our study could shed some light on the future research of efficient reinforcement learning on SC2 and other large-scale games.
+DA  - 2022/09/29/
+PY  - 2022
+DO  - 10.1613/jair.1.13743
+DP  - jair.org
+VL  - 75
+SP  - 213
+EP  - 260
+LA  - en
+SN  - 1076-9757
+UR  - https://jair.org/index.php/jair/article/view/13743
+Y2  - 2025/04/24/09:08:29
+L1  - files/75/Liu et al. - 2022 - On Efficient Reinforcement Learning for Full-length Game of StarCraft II.pdf
+KW  - game playing
+KW  - neural networks
+KW  - reinforcement learning
+ER  - 
+

@@ -116,8 +116,6 @@ experience is Csikszentmihalyi's flow theory \cite{csikszentmihalyi_flow_1990}, 
 enjoyment and intrinsic motivation. According to Csikszentmihalyi, flow occurs when the challenges presented match the player's skill level, and multiple conditions must be met for players to enter this state.
 These are having clear goals, and immediate feedback, and when these conditions are met, players are more likely to lose track of time and become deeply immersed in the game world \cite{csikszentmihalyi_flow_1990}.
 
-% Explain more about FSMs?
-
 AI opponents play a critical role in maintaining this balance, as they provide the challenge and difficulty that the player must overcome. Traditionally FSMs are used for this, as they are simple to implement
 and easy to understand, and when done correctly, provide a good challenge to the player. However, given enough time, players can learn the patterns of the FSMs, and exploit them,
 making the game feel boring and leading to them falling out of the \textit{flow state} \cite{noauthor_comparative_nodate}. It is possible to combat this through weakening the player, or making the AI more difficult,
@@ -128,8 +126,6 @@ and immersive experience, as the player feels like they are playing against a re
 due to the complexity of the game, and the many strategies that can be taken, which can be seen in the works done by \cite{vinyals_grandmaster_2019} and \cite{grech_creating_2023}.
 A common tool used in most of these papers is the Unity ML-Agents toolkit, which is a framework for training RL agents in Unity games, making it easier to implement and train RL agents for reasearch purposes.
 Along with that, most used the Proximal Policy Optimization (PPO) algorithm, which is a popular RL algorithm that is used for training agents in continuous action spaces, which is especially useful in real-time games.
-
-% Itemise list of the 5 recommended papers for RL agents?
 
 In the work done by \cite{vinyals_grandmaster_2019}, they trained an RL agent to play StarCraft II, and found that the agent was albe to not only learn how to play the game, but also adapt to the player's actions and strategies in real time.
 A similar result was found in the works done by \cite{bin_ramlan_implementation_2021} and \cite{raut_unity_2024}, where both used the Unity ML-Agents toolkit with PPO to train RL agents in 2 different genres.
@@ -144,6 +140,20 @@ Their results showed that players reported higher levels of enjoyment and immers
 the game. Their implementation was rather simple, and as such requires more research to be done in improving it and identifying if it is a viable solution to the issues of RL agents. Another option would be
 to build in a dynamic difficulty adjustment (DDA) system into either the agent or the game, as suggested by \cite{grech_creating_2023}, which would keep the rl agent's difficulty in check, while keeping its
 adaptability and unpredictability. This shows the gap in literature, both in the comparison of RL and FSM AI opponents, but also in managing the diffuculty of RL agents.
+
+% Wouldnt just having them in the references section be enough?
+\subsection{Further Reading}
+
+\begin{itemize}
+    \item Raut, U., Galchhaniya, P., Nehete, A., Shinde, R., \& Bhoite, A. (2024). \textit{Unity ML-Agents: Revolutionizing Gaming Through Reinforcement Learning}. \cite{raut_unity_2024}
+    \item Bin Ramlan, A. A., Ali, A. M., Abdul Hamid, N. H., \& Osman, R. (2021). \textit{The Implementation of Reinforcement Learning Algorithm for AI Bot in Fighting Video Game}. \cite{bin_ramlan_implementation_2021}
+    \item Liu, R.-Z., Pang, Z.-J., Meng, Z.-Y., Wang, W., Yu, Y., \& Lu, T. (2022). \textit{On Efficient Reinforcement Learning for Full-length Game of StarCraft II}. \cite{liu_efficient_2022}
+    \item Abdulghani, A. M., Abdulghani, M. M., Walters, W. L., \& Abed, K. H. (2023). \textit{Multi-Agent Reinforcement Learning System Using Value-Decomposition Network Algorithm in StarCraft Environment}. \cite{abdulghani_multi-agent_2023}
+    \item Vinyals, O., Babuschkin, I., Czarnecki, W. M., et al. (2019). \textit{Grandmaster level in StarCraft II using multi-agent reinforcement learning}. \cite{vinyals_grandmaster_2019}
+    \item Berta, R., Lazzaroni, L., Capello, A., et al. (2024). \textit{Development of Deep-Learning-Based Autonomous Agents for Low-Speed Maneuvering in Unity}. \cite{berta_development_2024}
+    \item Jagdale, D. (2021). \textit{Finite State Machine in Game Development}. \cite{jagdale_finite_2021}
+    \item \textit{Comparative Analysis of Game Development Techniques: Using Finite State Machine, Physics Simulation, Path Finding, Event Handling}. \cite{noauthor_comparative_nodate}
+\end{itemize}
 
 \section{Research Methodology}
 
