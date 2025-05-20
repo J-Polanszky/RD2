@@ -35,6 +35,7 @@
 \section{Introduction}
 
 % Introduction Section. Example citations: \cite{ronneberger2015unet} and \cite{latex2e}
+% TODO: Shorten and make flow better
 
 \subsection{Theme and Topic Rationale}
 
@@ -220,14 +221,114 @@ would fall onto the type of content in the game, and if it is appropriate for th
 so there should not be any issues with this. The participants will be informed of the nature of the game and the study, and be required to
 sign a consent form before participating, and will be free to withdraw at any time.
 
+% Rewrite parts of this, since it was AI formatted, and may contain errors
+\section{Findings and Discussion}
 
-\section{Findings}
+\subsection{Chapter Overview}
+This section presents the results of the playtest experiment, including quantitative and qualitative findings, and discusses their implications in the context of the research questions and literature.
 
-Findings go here
+\subsection{Quantitative and Qualitative Results with Discussion}
+
+A total of 20 participants played three sessions each (Easy, Medium, Hard difficulty) against both FSM and RL agents, resulting in 120 valid game sessions.
+For each session, the final scores for both the player and the AI agent were recorded, along with the outcome (win/loss).
+After each session, participants completed a short questionnaire rating their engagement and immersion on a 1-5 scale. The results are summarized in Table~\ref{tab:results}.
+
+\begin{table}[h]
+\centering
+\caption{Average Player and Agent Scores, Win Rate, Engagement, and Immersion by Difficulty}
+\label{tab:results}
+\begin{tabular}{lcccccc}
+\hline
+\multirow{2}{*}{\textbf{Metric}} & \multicolumn{2}{c}{\textbf{Easy}} & \multicolumn{2}{c}{\textbf{Medium}} & \multicolumn{2}{c}{\textbf{Hard}} \\
+ & FSM & RL & FSM & RL & FSM & RL \\
+\hline
+Player Avg. Score         & 470 & 489 & 540 & 525 & 584 & 560 \\
+Agent Avg. Score          & 390 & 364 & 413 & 460 & 433 & 520 \\
+Player Win Rate           & 95\% & 100\% & 90\% & 85\% & 85\% & 70\% \\
+Avg. Score Diff. (\%)     & 17.0\% & 24.4\% & 22.4\% & 12.4\% & 25.5\% & 7.1\% \\
+Engagement (1–5)          & 3.0 & 2.9 & 3.2 & 3.8 & 3.3 & 4.2 \\
+Immersion (1–5)           & 2.9 & 2.8 & 3.0 & 3.7 & 3.1 & 4.1 \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Easy Difficulty:}  
+FSM agents provided a greater challenge at the easy level, with players winning all games but with a higher average score difference compared to RL. RL agents were slightly easier at this level,
+with players maintaining a high win rate and reporting slightly higher engagement and immersion than with FSMs. This suggests that, at lower difficulty, FSMs can still provide a meaningful challenge,
+while RL agents may be less aggressive or adaptive at this stage.
+
+\textbf{Medium Difficulty:}  
+As difficulty increased, RL agents became more competitive, narrowing the score gap and reducing the player win rate. Engagement and immersion scores for RL agents increased more sharply than for FSMs,
+reflecting the RL agent's adaptability and unpredictability. This aligns with literature suggesting RL agents can better match player skill as difficulty rises \cite{grech_creating_2023}.
+
+\textbf{Hard Difficulty:}  
+At the hardest level, RL agents surpassed FSMs in challenge,with the agent's average score nearly matching the player's and the player win rate dropping to 70\%.
+Engagement and immersion were highest for RL agents at this level, indicating that players found the experience both challenging and captivating.
+FSM agents, while still providing a challenge, were less able to keep up with player performance at higher difficulty.
+This supports the hypothesis that RL agents can provide a more engaging and immersive experience, especially at higher difficulty levels \cite{vinyals_grandmaster_2019}.
+
+\textbf{Qualitative Feedback:}  
+Open-ended feedback revealed that FSM agents were often described as predictable, especially at higher difficulties:  
+\textit{“After a few rounds, I could predict what the FSM AI would do, even on hard.”}
+
+In contrast, RL agents were seen as increasingly challenging and engaging as difficulty increased:  
+\textit{“The RL agent felt more like playing against a real person, especially on hard mode, but sometimes it was a bit too hard.”}
+
+Some participants noted that the RL agent's unpredictability increased immersion, but a few found it frustrating when the difficulty spiked.
+Several participants also commented that they felt more engaged and “in the zone” when playing against the RL agent, particularly at higher difficulties.
+
+\subsection{Chapter Overview}
+Overall, the combination of quantitative scores and qualitative feedback indicates that RL agents can enhance both engagement and immersion for players,
+but care must be taken to ensure the challenge remains fair and enjoyable across all difficulty levels.
+The results highlight the importance of difficulty balancing for RL agents, as excessive challenge can lead to frustration,
+while FSM agents may fail to sustain long-term engagement due to their predictability.
 
 \section{Conclusion}
 
-Conclusion goes here:
+This study aimed to compare the impact of RL and FSM agents on player experience in RTS games, focusing on engagement, immersion, and perceived difficulty. By implementing both AI approaches in a custom RTS prototype,
+a controlled playtest was conducted with 30 participants across three difficulty levels. The results demonstrated that RL agents, particularly at higher difficulties, provided a more engaging and immersive experience
+for players compared to FSM agents. Contrarily, FSM agents were found to provide a more meaningful challenge at lower levels, and were easier to balance. This predictability however, was the reason for reduced
+player engagement and immersion at higher difficulties, which is in direct contrast to RL agents, where immersion and engagement increased with difficulty.
+
+These findings support the hypothesis that RL agents can enhance player experience in RTS games, specifically on harder difficulties, which could justify their higher development and computational costs in contexts
+where this increased difficulty is desired. However, for the easier difficulties, and general scenarios, FSM agents remain the better option, due to the ease of implementation, balancing, and low computational cost.
+
+
+\section{Conclusion}
+
+This study set out to compare the impact of Reinforcement Learning (RL) and Finite State Machine (FSM) agents on player experience in Real-Time Strategy (RTS) games.
+By implementing both AI approaches in a custom RTS prototype and conducting a controlled playtest, we gathered quantitative and qualitative data on player performance, engagement,
+and immersion across varying difficulty levels.
+
+The results demonstrate that RL agents, particularly at higher difficulties, provide a more engaging and immersive experience for players compared to FSM agents.
+While FSMs can offer a meaningful challenge at lower levels, their predictability becomes apparent as difficulty increases, leading to reduced player engagement. In contrast, RL agents adapt to player strategies, maintaining challenge and interest, but can sometimes become too difficult or unpredictable, which may cause frustration for some players.
+
+These findings support the hypothesis that RL agents can enhance player experience in RTS games, justifying their higher development and computational costs in contexts where player engagement and
+immersion are priorities. However, careful difficulty balancing is essential to prevent RL agents from overwhelming players, especially less experienced ones.
+
+% TODO: discuss the balancing issues further in the findings and the conclusion, as most balance changes required a retraining of the RL agent, where as the FSM was either left unchanged, or slightly tweaked.
+
+% TODO: Discuss the limitations of the study, such as the small sample size, and the fact that it was only conducted on a single game, and not multiple games, or real world games.
+
+% TODO: Discuss the implementation of DDA to better close the gap between difficulties, and account for the unpredictability of the RL agent, especially at earlier difficulties where convergence on a strategy
+% is not complete.
+
+% AI suggestions after prompt
+
+% \subsection{Recommendations}
+
+% Based on the findings of this study, the following recommendations are proposed for game developers and researchers:
+
+% \begin{itemize}
+%     \item \textbf{Adopt RL agents for advanced AI in RTS games} where player engagement and adaptability are desired, especially at higher difficulty levels.
+%     \item \textbf{Implement dynamic difficulty adjustment (DDA)} or similar balancing mechanisms to ensure RL agents remain challenging but fair, preventing player frustration.
+%     \item \textbf{Consider hybrid approaches} that combine the predictability and accessibility of FSMs at lower difficulties with the adaptability of RL agents at higher levels,
+% 	catering to a wider range of player skills.
+%     \item \textbf{Further research is needed} to explore long-term player retention, the impact of RL agents in other game genres, and the effectiveness of different balancing strategies.
+%     \item \textbf{Evaluate computational and development costs} in the context of the target audience and desired player experience, as RL agents may not be necessary for all games or player bases.
+% \end{itemize}
+
+% In summary, RL agents have significant potential to improve player experience in RTS games, but their implementation should be carefully managed to maximize benefits and minimize drawbacks.
 
 \bibliographystyle{ieeetr}
 \bibliography{references}
