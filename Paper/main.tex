@@ -12,7 +12,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{Comparing Reinforcement Learning and Finite State Machine Agents in Real Time Strategy Games: Impact on Player Experience}
+\title{Research Design 2:\\ Comparing Reinforcement Learning and Finite State Machine Agents in Real Time Strategy Games: Impact on Player Experience}
 
 \author{\IEEEauthorblockN{Joshua Polanszky}
 	\IEEEauthorblockA{\textit{Institute of Information Communication Technology} \\
@@ -34,23 +34,16 @@
 
 \section{Introduction}
 
-% Introduction Section. Example citations: \cite{ronneberger2015unet} and \cite{latex2e}
-% TODO: Shorten and make flow better
-
 \subsection{Theme and Topic Rationale}
 
-The Theme chosen is Decision-Making AI for Real-Time Strategy (RTS) Games, and will focus on comparing Finite State-Machine (FSMs) AI opponents traditionally used in games, against Machine Learning (ML) opponents, specifically
-Reinforcement Learning (RL), and their impact on player experience.
-
-Game AI plays a huge role in player experience and immersion, as they provide the challenge and unpredictability that makes games fun and engaging.
-While extensive research has been conducted on the topic, most have focused more on the pure performance of the RL agent, and/or its impact on player experience, never directly
-comparing it to traditional FSMs, such as the work done by Grech \cite{grech_creating_2023}, Berta, et al. \cite{bin_ramlan_implementation_2021}, and Zhasulanov \cite{zhasulanov_enhancing_2024}.
-This study aims to address the research gap by directly comparing RL Agents to FSMs, and evaluating their impact on player experience, with the goal of identifying if the computational
-and development cost of implementing RL agents is justified by the improvement in player experience.
+The Theme chosen is Decision-Making AI for Real-Time Strategy (RTS) Games, focusing on a direct comparison between traditional Finite State-Machine (FSMs) AI opponents against Machine Learning (ML) opponents, 
+specifically Reinforcement Learning (RL), and their impact on player experience. The rationale for this topic stems from the increasing standard of player expectations in games, and the need for more adaptive,
+engaging AI opponents in games.
 
 \subsection{Positioning and Research Onion}
-This research addresses the gap in player experience found in the literature, building on the works of \cite{grech_creating_2023} and \cite{vinyals_grandmaster_2019} on AlphaStar by providing a better understanding on the role RL agents will play in the future of RTS games.
-As can be seen in Figure \ref{fig:research_onion}, this study will follow a positivist research paradigm, following a deductive and experimental approach, gathering both quantitative and qualitative data to measure player experience.
+This research addresses the gap in player experience found in the literature, building on the works of \cite{grech_creating_2023} and \cite{vinyals_grandmaster_2019} on AlphaStar by providing a 
+better understanding on the role RL agents will play in the future of RTS games. As can be seen in Figure \ref{fig:research_onion}, this study will follow a positivist research paradigm, 
+following a deductive and experimental approach, gathering both quantitative and qualitative data to measure player experience.
 
 \begin{figure}[htbp]
 	\centering
@@ -59,9 +52,18 @@ As can be seen in Figure \ref{fig:research_onion}, this study will follow a posi
 	\label{fig:research_onion}
 \end{figure}
 
+
 \subsection{Background to the Research Theme}
-Game AI has evolved significantly over the years, especially in RTS games. Early RTS titles, such as StarCraft, relied on Finite State Machines (FSMs) for their AI decision-making. These FSM-based approached
-are deterministic and predictable, which can lead to repetitive and boring gameplay, and allow players to exploit the gameplay patters of the AI. \cite{vinyals_grandmaster_2019}
+
+Game AI plays a huge role in player experience and immersion, as they provide the challenge and unpredictability that makes games fun and engaging.
+It has evolved significantly over the years, especially in RTS games. Early RTS titles, such as StarCraft, relied on Finite State Machines (FSMs) for their AI decision-making. These FSM-based approaches,
+while simple and easy to implement, are deterministic and predictable, which can lead to repetitive and boring gameplay, and allow players to exploit the gameplay patterns of the AI \cite{noauthor_finite_2020} 
+\cite{jagdale_finite_2021}.
+
+% While extensive research has been conducted on the topic, most have focused more on the pure performance of the RL agent, and/or its impact on player experience, never directly
+% comparing it to traditional FSMs, such as the work done by Grech \cite{grech_creating_2023}, Berta, et al. \cite{bin_ramlan_implementation_2021}, and Zhasulanov \cite{zhasulanov_enhancing_2024}.
+% This study aims to address the research gap by directly comparing RL Agents to FSMs, and evaluating their impact on player experience, with the goal of identifying if the computational
+% and development cost of implementing RL agents is justified by the improvement in player experience.
 
 More recently, RL has emerged as an alternative AI approach, taking advantage of advancements in ML and computer hardware. In games such as AlphaStar \cite{vinyals_grandmaster_2019}, RL agents were able to
 demonstrate adaptive and human-like behaviour, providing a more challenging and engaging experience for players. Another paper that highlights this is the work done by Grech \cite{grech_creating_2023},
@@ -73,34 +75,32 @@ This further proves the need for research in this area, and in evaluating if the
 
 \subsection{Hypothesis}
 
-Players report a higher level of enjoyment and improved experience when playing against RL agents comparted to FSMs in RTS games.
+Players report a higher level of enjoyment and improved experience when playing against RL agents compared to FSMs in RTS games.
 
 \subsection{Independent \& Dependent Variables}
 
-Independent variables are variables that are manipulated by the researcher, and are mainly used to influence the dependant variables. Dependant variables are what happen as a result of the independant variables,
+Independent variables are variables that are manipulated by the researcher, and are mainly used to influence the dependent variables. Dependent variables are what happen as a result of the independent variables,
 and are what the researcher is interested in measuring.
 
-The independent variable in this study is the type of AI opponent. The dependant variables, those are player experience, player immersion, and perceived difficulty.
+The independent variable in this study is the type of AI opponent. The dependent variables, those are player experience, player immersion, and perceived difficulty.
 Player experience will be measured through surveys and engagement metrics, player immersion will be measured through surveys and validated game design principles, and perceived difficulty will be measured through
 surveys, player feedback, and engagement metrics.
 
 \subsection{Research Aim}
 
-The aim of this study is to evaluate the impact of Reinforcement Learning (RL) and Finite State Machines (FSMs) AI opponents on player experience in Real-Time Strategy (RTS) games, and determine if the extra resources
-is justified by the improvement in player experience for RL agents.
-
-To be more specific, the study will focus on the following research objectives:
+The aim of this study is to determine whether the use of Reinforcement Learning (RL) agents in Real-Time Strategy (RTS) games leads to a measurable improvement in player experience compared to traditional
+Finite State Machine (FSM) opponents. Below are the specific research objectives:
 
 \begin{itemize}
-	\item Compare player-reported enjoyment and engagement levels when playing against RL and FSM AI opponents in RTS games.
-	\item Assess the impact of RL and FSM AI opponents on player immersion in RTS games.
-	\item Determine if the computational and development costs and complexity of RL justify its implementation over FSMs in RTS games.
+	\item Compare player-reported enjoyment, engagement, and immersion levels when playing against RL and FSM AI opponents in RTS games.
+	\item Identify the key factors influencing player experience for each AI approach.
+	\item Determine if the computational and development costs and complexity of RL are justified in RTS games.
 \end{itemize}
 
 \subsection{Purpose Statement}
 
-This study is important because AI opponents shaoe the core gameplay experience of RTS games. While FSMs remain widely used due to their simplicity, RL-based AI has the potential to revolutionise
-RTS games by providing adaptive and unpredictable opponents. However, the significant resource demand from developers raise questions if the benefits of RL are worth the investment.
+This study is important because AI opponents shape the core gameplay experience of RTS games. The adaptiveness and human-like behaviour of RL agents have the potential to
+significantly enhance player experience, if implemented correctly.
 
 By investigating the difference in player experience between RL and FSM AI, this study will provide valuable insights to game developers, AI designers, and the broader gaming community, helping them
 in making more informed decisions regarding AI decision-making strategies in RTS game development.
@@ -246,8 +246,8 @@ Player Avg. Score         & 470 & 489 & 540 & 525 & 584 & 560 \\
 Agent Avg. Score          & 390 & 364 & 413 & 460 & 433 & 520 \\
 Player Win Rate           & 95\% & 100\% & 90\% & 85\% & 85\% & 70\% \\
 Avg. Score Diff. (\%)     & 17.0\% & 24.4\% & 22.4\% & 12.4\% & 25.5\% & 7.1\% \\
-Engagement (1–5)          & 3.0 & 2.9 & 3.2 & 3.8 & 3.3 & 4.2 \\
-Immersion (1–5)           & 2.9 & 2.8 & 3.0 & 3.7 & 3.1 & 4.1 \\
+Engagement (1-5)          & 3.0 & 2.9 & 3.2 & 3.8 & 3.3 & 4.2 \\
+Immersion (1-5)           & 2.9 & 2.8 & 3.0 & 3.7 & 3.1 & 4.1 \\
 \hline
 \end{tabular}
 \end{table}
@@ -283,16 +283,15 @@ but care must be taken to ensure the challenge remains fair and enjoyable across
 The results highlight the importance of difficulty balancing for RL agents, as excessive challenge can lead to frustration,
 while FSM agents may fail to sustain long-term engagement due to their predictability.
 
-\section{Conclusion}
+% \section{Conclusion}
 
-This study aimed to compare the impact of RL and FSM agents on player experience in RTS games, focusing on engagement, immersion, and perceived difficulty. By implementing both AI approaches in a custom RTS prototype,
-a controlled playtest was conducted with 30 participants across three difficulty levels. The results demonstrated that RL agents, particularly at higher difficulties, provided a more engaging and immersive experience
-for players compared to FSM agents. Contrarily, FSM agents were found to provide a more meaningful challenge at lower levels, and were easier to balance. This predictability however, was the reason for reduced
-player engagement and immersion at higher difficulties, which is in direct contrast to RL agents, where immersion and engagement increased with difficulty.
+% This study aimed to compare the impact of RL and FSM agents on player experience in RTS games, focusing on engagement, immersion, and perceived difficulty. By implementing both AI approaches in a custom RTS prototype,
+% a controlled playtest was conducted with 30 participants across three difficulty levels. The results demonstrated that RL agents, particularly at higher difficulties, provided a more engaging and immersive experience
+% for players compared to FSM agents. Contrarily, FSM agents were found to provide a more meaningful challenge at lower levels, and were easier to balance. This predictability however, was the reason for reduced
+% player engagement and immersion at higher difficulties, which is in direct contrast to RL agents, where immersion and engagement increased with difficulty.
 
-These findings support the hypothesis that RL agents can enhance player experience in RTS games, specifically on harder difficulties, which could justify their higher development and computational costs in contexts
-where this increased difficulty is desired. However, for the easier difficulties, and general scenarios, FSM agents remain the better option, due to the ease of implementation, balancing, and low computational cost.
-
+% These findings support the hypothesis that RL agents can enhance player experience in RTS games, specifically on harder difficulties, which could justify their higher development and computational costs in contexts
+% where this increased difficulty is desired. However, for the easier difficulties, and general scenarios, FSM agents remain the better option, due to the ease of implementation, balancing, and low computational cost.
 
 \section{Conclusion}
 
@@ -312,6 +311,8 @@ immersion are priorities. However, careful difficulty balancing is essential to 
 
 % TODO: Discuss the implementation of DDA to better close the gap between difficulties, and account for the unpredictability of the RL agent, especially at earlier difficulties where convergence on a strategy
 % is not complete.
+
+% TODO: Finalise the changes being done in the copy outside the repo, and place them here, since almost every other part is finalised.
 
 % AI suggestions after prompt
 
