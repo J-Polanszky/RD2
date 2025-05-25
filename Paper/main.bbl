@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{vinyals_grandmaster_2019}
+O.~Vinyals, I.~Babuschkin, W.~M. Czarnecki, M.~Mathieu, A.~Dudzik, J.~Chung, D.~H. Choi, R.~Powell, T.~Ewalds, P.~Georgiev, J.~Oh, D.~Horgan, M.~Kroiss, I.~Danihelka, A.~Huang, L.~Sifre, T.~Cai, J.~P. Agapiou, M.~Jaderberg, A.~S. Vezhnevets, R.~Leblond, T.~Pohlen, V.~Dalibard, D.~Budden, Y.~Sulsky, J.~Molloy, T.~L. Paine, C.~Gulcehre, Z.~Wang, T.~Pfaff, Y.~Wu, R.~Ring, D.~Yogatama, D.~Wünsch, K.~McKinney, O.~Smith, T.~Schaul, T.~Lillicrap, K.~Kavukcuoglu, D.~Hassabis, C.~Apps, and D.~Silver, ``Grandmaster level in {StarCraft} {II} using multi-agent reinforcement learning,'' {\em Nature}, vol.~575, pp.~350--354, Nov. 2019.
+\newblock Publisher: Nature Publishing Group.
+
+\bibitem{noauthor_finite_2020}
+``Finite {State} {Machine} {Explained},'' Jan. 2020.
+
+\bibitem{jagdale_finite_2021}
+D.~Jagdale, ``Finite {State} {Machine} in {Game} {Development},'' pp.~384--390, Oct. 2021.
+
+\bibitem{grech_creating_2023}
+G.~Grech, {\em Creating {Difficulty} {Levels} with {Reinforcement} {Learning} in a {Strategy} {Game}}.
+\newblock Bachelor's, Malta College of Arts Science and Technology (MCAST), Paola, Malta, June 2023.
+
+\bibitem{csikszentmihalyi_flow_1990}
+M.~Csikszentmihalyi, ``Flow: {The} {Psychology} of {Optimal} {Experience},'' Jan. 1990.
+
+\bibitem{noauthor_comparative_nodate}
+``Comparative {Analysis} of {Game} {Development} {Techniques}: {Using} {Finite} {State} {Machine}, {Physics} {Simulation}, {Path} {Finding}, {Event} {Handling},''
+
+\bibitem{bin_ramlan_implementation_2021}
+A.~A. Bin~Ramlan, A.~M. Ali, N.~H. Abdul~Hamid, and R.~Osman, ``The {Implementation} of {Reinforcement} {Learning} {Algorithm} for {AI} {Bot} in {Fighting} {Video} {Game},'' in {\em 2021 4th {International} {Symposium} on {Agents}, {Multi}-{Agent} {Systems} and {Robotics} ({ISAMSR})}, (Batu Pahat, Malaysia), pp.~96--100, IEEE, Sept. 2021.
+
+\bibitem{raut_unity_2024}
+U.~Raut, P.~Galchhaniya, A.~Nehete, R.~Shinde, and A.~Bhoite, ``Unity {ML}-{Agents}: {Revolutionizing} {Gaming} {Through} {Reinforcement} {Learning},'' in {\em 2024 2nd {World} {Conference} on {Communication} \&amp; {Computing} ({WCONF})}, (RAIPUR, India), pp.~1--7, IEEE, July 2024.
+
+\bibitem{liu_efficient_2022}
+R.-Z. Liu, Z.-J. Pang, Z.-Y. Meng, W.~Wang, Y.~Yu, and T.~Lu, ``On {Efficient} {Reinforcement} {Learning} for {Full}-length {Game} of {StarCraft} {II},'' {\em Journal of Artificial Intelligence Research}, vol.~75, pp.~213--260, Sept. 2022.
+
+\end{thebibliography}

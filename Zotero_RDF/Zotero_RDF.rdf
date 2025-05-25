@@ -600,16 +600,17 @@
             </rdf:Seq>
         </bib:authors>
         <dcterms:isReferencedBy rdf:resource="#item_168"/>
+        <dc:relation rdf:resource="https://ieeexplore.ieee.org/document/10487385"/>
         <dc:relation rdf:resource="https://jair.org/index.php/jair/article/view/13743"/>
         <dc:subject>
             <z:AutomaticTag>
                <rdf:value>Computer science</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
+        <dc:subject>Reinforcement Learning (RL)</dc:subject>
         <dc:subject>
            <z:AutomaticTag><rdf:value>Statistics</rdf:value></z:AutomaticTag>
         </dc:subject>
-        <dc:subject>Reinforcement Learning (RL)</dc:subject>
         <dc:title>Grandmaster level in StarCraft II using multi-agent reinforcement learning</dc:title>
         <dcterms:abstract>Many real-world applications require artificial agents to compete and coordinate with other agents in complex environments. As a stepping stone to this goal, the domain of StarCraft has emerged as an important challenge for artificial intelligence research, owing to its iconic and enduring status among the most difficult professional esports and its relevance to the real world in terms of its raw complexity and multi-agent challenges. Over the course of a decade and numerous competitions1–3, the strongest agents have simplified important aspects of the game, utilized superhuman capabilities, or employed hand-crafted sub-systems4. Despite these advantages, no previous agent has come close to matching the overall skill of top StarCraft players. We chose to address the challenge of StarCraft using general-purpose learning methods that are in principle applicable to other complex domains: a multi-agent reinforcement learning algorithm that uses data from both human and agent games within a diverse league of continually adapting strategies and counter-strategies, each represented by deep neural networks5,6. We evaluated our agent, AlphaStar, in the full game of StarCraft II, through a series of online games against human players. AlphaStar was rated at Grandmaster level for all three StarCraft races and above 99.8% of officially ranked human players.</dcterms:abstract>
         <dc:date>2019-11</dc:date>
@@ -816,14 +817,8 @@
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_165"/>
-        <dc:subject>
-            <z:AutomaticTag>
-               <rdf:value>Reinforcement learning</rdf:value>
-            </z:AutomaticTag>
-        </dc:subject>
-        <dc:subject>
-           <z:AutomaticTag><rdf:value>Training</rdf:value></z:AutomaticTag>
-        </dc:subject>
+        <dc:relation rdf:resource="https://jair.org/index.php/jair/article/view/13743"/>
+        <dc:relation rdf:resource="https://www.nature.com/articles/s41586-019-1724-z"/>
         <dc:subject>
            <z:AutomaticTag><rdf:value>AI</rdf:value></z:AutomaticTag>
         </dc:subject>
@@ -867,6 +862,11 @@
         </dc:subject>
         <dc:subject>
             <z:AutomaticTag>
+               <rdf:value>Reinforcement learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
                <rdf:value>Reinforcement Learning (RL)</rdf:value>
             </z:AutomaticTag>
         </dc:subject>
@@ -874,6 +874,9 @@
             <z:AutomaticTag>
                 <rdf:value>StarCraft II Multi-Agent Challenges (SMAC) environment</rdf:value>
             </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Training</rdf:value></z:AutomaticTag>
         </dc:subject>
         <dc:title>Multi-Agent Reinforcement Learning System Using Value-Decomposition Network Algorithm in StarCraft Environment</dc:title>
         <dcterms:abstract>Multi-Agent Reinforcement Learning (MARL) has been shown to be extremely successful in cooperative assignments. MARL allows for the control of multiple agents to complete multiple tasks in a certain environment and provide helpful services. In this paper, we will examine a war scenario with the StarCraft II Multi-Agent Challenges (SMAC) environment to implement a multi-agent system. For training, we employed one of the most popular MARL algorithms, which is the Value-Decomposition Network (VDN). This algorithm works on controlling the agents to cooperate with each other to achieve the desired goals. We will then use the battle won mean and the dead allies mean metrics to measure the performance of the VDN algorithm. The result showed that the VDN algorithm reaching the highest value of battle won mean with one million iterations and the lowest value of dead allies mean metrics with less than one million iterations. The hardware that we use in this work is CPU Cor i7 11800H, with 32 GB Ram and RTX 3080 laptop GPU, with CUDA Toolkit 11.7.1, and Pytorch 1.7.1.</dcterms:abstract>
@@ -949,6 +952,7 @@
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_167"/>
+        <dc:relation rdf:resource="https://ieeexplore.ieee.org/document/10487385"/>
         <dc:relation rdf:resource="https://www.nature.com/articles/s41586-019-1724-z"/>
         <dc:subject>Reinforcement Learning (RL)</dc:subject>
         <dc:subject>
