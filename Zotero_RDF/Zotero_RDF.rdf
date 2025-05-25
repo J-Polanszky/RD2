@@ -1,0 +1,1020 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Thesis rdf:about="#item_149">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paola, Malta</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Malta College of Arts Science and Technology (MCAST)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grech</foaf:surname>
+                        <foaf:givenName>Georg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_169"/>
+        <link:link rdf:resource="#item_150"/>
+        <dc:subject>Reinforcement Learning (RL)</dc:subject>
+        <dc:title>Creating Difficulty Levels with Reinforcement Learning in a Strategy Game</dc:title>
+        <dc:date>6/2023</dc:date>
+        <z:language>English</z:language>
+        <z:numPages>97</z:numPages>
+        <z:type>Bachelor's</z:type>
+    </bib:Thesis>
+    <bib:Memo rdf:about="#item_169">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Experiments with using snapshots of RL agents during training to create the different difficulty levels. The basis of the research being conducted. Has issue where RL agents are the only ones being tested, and not compared with FSMs&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_150">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/150/Grech - Creating Difficulty Levels with Reinforcement Learning in a Strategy Game.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-6654-3632-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-6654-3632-8</dc:identifier>
+                <dc:title>2021 4th International Symposium on Agents, Multi-Agent Systems and Robotics (ISAMSR)</dc:title>
+                <dc:identifier>DOI 10.1109/ISAMSR53229.2021.9567749</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Batu Pahat, Malaysia</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bin Ramlan</foaf:surname>
+                        <foaf:givenName>Adi Aiman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ali</foaf:surname>
+                        <foaf:givenName>Azliza Mohd</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abdul Hamid</foaf:surname>
+                        <foaf:givenName>Nurzeatul Hamimah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Osman</foaf:surname>
+                        <foaf:givenName>Rozianawaty</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:relation rdf:resource="urn:isbn:979-8-3503-9532-7"/>
+        <dc:subject>Reinforcement Learning (RL)</dc:subject>
+        <dc:title>The Implementation of Reinforcement Learning Algorithm for AI Bot in Fighting Video Game</dc:title>
+        <dc:date>2021-9-6</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9567749/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:20:20</dcterms:dateSubmitted>
+        <dc:rights>https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html</dc:rights>
+        <bib:pages>96-100</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2021 4th International Symposium on Agents, Multi-Agent Systems and Robotics (ISAMSR)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_152">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>2024 IEEE 4th International Conference on Smart Information Systems and Technologies (SIST)</dc:title>
+                <dc:identifier>DOI 10.1109/SIST61555.2024.10629511</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhasulanov</foaf:surname>
+                        <foaf:givenName>Dinmukhammed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marat</foaf:surname>
+                        <foaf:givenName>Bekarys</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Erkin</foaf:surname>
+                        <foaf:givenName>Kuanysh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Omirgaliyev</foaf:surname>
+                        <foaf:givenName>Ruslan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kushekkaliyev</foaf:surname>
+                        <foaf:givenName>Alman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhakiyev</foaf:surname>
+                        <foaf:givenName>Nurkhat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:relation rdf:resource="urn:isbn:979-8-3503-9532-7"/>
+        <dc:subject>Artificial intelligence</dc:subject>
+        <dc:subject>Artificial Intelligence (AI)</dc:subject>
+        <dc:subject>Data processing</dc:subject>
+        <dc:subject>Economics</dc:subject>
+        <dc:subject>Game</dc:subject>
+        <dc:subject>Gameplay Experience</dc:subject>
+        <dc:subject>Games</dc:subject>
+        <dc:subject>Machine learning algorithms</dc:subject>
+        <dc:subject>ML Agents</dc:subject>
+        <dc:subject>Non-playable character (NPC)</dc:subject>
+        <dc:subject>Reinforcement learning</dc:subject>
+        <dc:subject>Reinforcement Learning</dc:subject>
+        <dc:subject>Training</dc:subject>
+        <dc:subject>Unity</dc:subject>
+        <dc:subject>Reinforcement Learning (RL)</dc:subject>
+        <dc:title>Enhancing Gameplay Experience Through Reinforcement Learning in Games</dc:title>
+        <dc:date>2024</dc:date>
+        <bib:pages>175-180</bib:pages>
+    </rdf:Description>
+    <bib:Article rdf:about="https://ieeexplore.ieee.org/document/10695161/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2399-9802"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Berta</foaf:surname>
+                        <foaf:givenName>Riccardo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lazzaroni</foaf:surname>
+                        <foaf:givenName>Luca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Capello</foaf:surname>
+                        <foaf:givenName>Alessio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cossu</foaf:surname>
+                        <foaf:givenName>Marianna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Forneris</foaf:surname>
+                        <foaf:givenName>Luca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pighetti</foaf:surname>
+                        <foaf:givenName>Alessandro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bellotti</foaf:surname>
+                        <foaf:givenName>Francesco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_154"/>
+        <dc:subject>Reinforcement Learning (RL)</dc:subject>
+        <dc:title>Development of Deep-Learning-Based Autonomous Agents for Low-Speed Maneuvering in Unity</dc:title>
+        <dc:date>9/2024</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10695161/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:25:04</dcterms:dateSubmitted>
+        <bib:pages>229-244</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2399-9802">
+        <prism:volume>7</prism:volume>
+        <dc:title>Journal of Intelligent and Connected Vehicles</dc:title>
+        <dc:identifier>DOI 10.26599/JICV.2023.9210039</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>J. Int. Con. Veh.</dcterms:alternative>
+        <dc:identifier>ISSN 2399-9802</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_154">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/154/Berta et al. - 2024 - Development of Deep-Learning-Based Autonomous Agents for Low-Speed Maneuvering in Unity.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&amp;arnumber=10695161&amp;ref=</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:25:19</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:979-8-3503-9532-7">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 979-8-3503-9532-7</dc:identifier>
+                <dc:title>2024 2nd World Conference on Communication &amp;amp; Computing (WCONF)</dc:title>
+                <dc:identifier>DOI 10.1109/WCONF61366.2024.10692314</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>RAIPUR, India</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raut</foaf:surname>
+                        <foaf:givenName>Umesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Galchhaniya</foaf:surname>
+                        <foaf:givenName>Prathmesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nehete</foaf:surname>
+                        <foaf:givenName>Anish</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shinde</foaf:surname>
+                        <foaf:givenName>Rohan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bhoite</foaf:surname>
+                        <foaf:givenName>Avaneesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:relation rdf:resource="urn:isbn:978-1-6654-3632-8"/>
+        <dc:relation rdf:resource="#item_152"/>
+        <dc:subject>Reinforcement Learning (RL)</dc:subject>
+        <dc:title>Unity ML-Agents: Revolutionizing Gaming Through Reinforcement Learning</dc:title>
+        <dc:date>2024-7-12</dc:date>
+        <z:shortTitle>Unity ML-Agents</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10692314/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 10:25:36</dcterms:dateSubmitted>
+        <dc:rights>https://doi.org/10.15223/policy-029</dc:rights>
+        <bib:pages>1-7</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2024 2nd World Conference on Communication &amp;amp; Computing (WCONF)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Article rdf:about="https://www.nature.com/articles/s41586-019-1724-z">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1476-4687"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vinyals</foaf:surname>
+                        <foaf:givenName>Oriol</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Babuschkin</foaf:surname>
+                        <foaf:givenName>Igor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Czarnecki</foaf:surname>
+                        <foaf:givenName>Wojciech M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mathieu</foaf:surname>
+                        <foaf:givenName>Michaël</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dudzik</foaf:surname>
+                        <foaf:givenName>Andrew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chung</foaf:surname>
+                        <foaf:givenName>Junyoung</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Choi</foaf:surname>
+                        <foaf:givenName>David H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Powell</foaf:surname>
+                        <foaf:givenName>Richard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ewalds</foaf:surname>
+                        <foaf:givenName>Timo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Georgiev</foaf:surname>
+                        <foaf:givenName>Petko</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oh</foaf:surname>
+                        <foaf:givenName>Junhyuk</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Horgan</foaf:surname>
+                        <foaf:givenName>Dan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kroiss</foaf:surname>
+                        <foaf:givenName>Manuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Danihelka</foaf:surname>
+                        <foaf:givenName>Ivo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Aja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sifre</foaf:surname>
+                        <foaf:givenName>Laurent</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cai</foaf:surname>
+                        <foaf:givenName>Trevor</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Agapiou</foaf:surname>
+                        <foaf:givenName>John P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jaderberg</foaf:surname>
+                        <foaf:givenName>Max</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vezhnevets</foaf:surname>
+                        <foaf:givenName>Alexander S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leblond</foaf:surname>
+                        <foaf:givenName>Rémi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pohlen</foaf:surname>
+                        <foaf:givenName>Tobias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dalibard</foaf:surname>
+                        <foaf:givenName>Valentin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Budden</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sulsky</foaf:surname>
+                        <foaf:givenName>Yury</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Molloy</foaf:surname>
+                        <foaf:givenName>James</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paine</foaf:surname>
+                        <foaf:givenName>Tom L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gulcehre</foaf:surname>
+                        <foaf:givenName>Caglar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Ziyu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pfaff</foaf:surname>
+                        <foaf:givenName>Tobias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Yuhuai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ring</foaf:surname>
+                        <foaf:givenName>Roman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yogatama</foaf:surname>
+                        <foaf:givenName>Dani</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wünsch</foaf:surname>
+                        <foaf:givenName>Dario</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McKinney</foaf:surname>
+                        <foaf:givenName>Katrina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>Oliver</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schaul</foaf:surname>
+                        <foaf:givenName>Tom</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lillicrap</foaf:surname>
+                        <foaf:givenName>Timothy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kavukcuoglu</foaf:surname>
+                        <foaf:givenName>Koray</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hassabis</foaf:surname>
+                        <foaf:givenName>Demis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Apps</foaf:surname>
+                        <foaf:givenName>Chris</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Silver</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_168"/>
+        <dc:relation rdf:resource="https://jair.org/index.php/jair/article/view/13743"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer science</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Statistics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>Reinforcement Learning (RL)</dc:subject>
+        <dc:title>Grandmaster level in StarCraft II using multi-agent reinforcement learning</dc:title>
+        <dcterms:abstract>Many real-world applications require artificial agents to compete and coordinate with other agents in complex environments. As a stepping stone to this goal, the domain of StarCraft has emerged as an important challenge for artificial intelligence research, owing to its iconic and enduring status among the most difficult professional esports and its relevance to the real world in terms of its raw complexity and multi-agent challenges. Over the course of a decade and numerous competitions1–3, the strongest agents have simplified important aspects of the game, utilized superhuman capabilities, or employed hand-crafted sub-systems4. Despite these advantages, no previous agent has come close to matching the overall skill of top StarCraft players. We chose to address the challenge of StarCraft using general-purpose learning methods that are in principle applicable to other complex domains: a multi-agent reinforcement learning algorithm that uses data from both human and agent games within a diverse league of continually adapting strategies and counter-strategies, each represented by deep neural networks5,6. We evaluated our agent, AlphaStar, in the full game of StarCraft II, through a series of online games against human players. AlphaStar was rated at Grandmaster level for all three StarCraft races and above 99.8% of officially ranked human players.</dcterms:abstract>
+        <dc:date>2019-11</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>www.nature.com</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41586-019-1724-z</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-16 12:10:21</dcterms:dateSubmitted>
+        <dc:rights>2019 The Author(s), under exclusive licence to Springer Nature Limited</dc:rights>
+        <dc:description>Publisher: Nature Publishing Group</dc:description>
+        <bib:pages>350-354</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1476-4687">
+        <prism:volume>575</prism:volume>
+        <dc:title>Nature</dc:title>
+        <dc:identifier>DOI 10.1038/s41586-019-1724-z</dc:identifier>
+        <prism:number>7782</prism:number>
+        <dc:identifier>ISSN 1476-4687</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_168">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Shows the human-like performance and adaptability, allowing for more engaging, and adaptive opponents compared to SC2’s traditional FSMs.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:BookSection rdf:about="#item_157">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book></bib:Book>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Csikszentmihalyi</foaf:surname>
+                        <foaf:givenName>Mihaly</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_170"/>
+        <dc:subject>Player Experience</dc:subject>
+        <dc:title>Flow: The Psychology of Optimal Experience</dc:title>
+        <dc:date>1990-01</dc:date>
+    </bib:BookSection>
+    <bib:Memo rdf:about="#item_170">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;Covers the fundamentals of player experience, as almost all papers reference this study.&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <bib:Article rdf:about="#item_158">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>5</prism:volume>
+                <dc:title>International Journal of Research Publication and Reviews</dc:title>
+                <prism:number>5</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vivin</foaf:surname>
+                        <foaf:givenName>Richard. G</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sree</foaf:surname>
+                        <foaf:givenName>Dev. A. K</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_159"/>
+        <dc:subject>Finite-State-Machine (FSM)</dc:subject>
+        <dc:title>Comparative Analysis of Game Development Techniques: Using Finite State Machine, Physics Simulation, Path Finding, Event Handling</dc:title>
+        <dcterms:abstract>This paper delves into the core techniques pivotal to game development: Finite State Machines (FSMs), Physics Simulation, Event Handling, and Path Finding. These techniques serve as pillars in defining the intricate behaviors and dynamics within games, influencing gameplay mechanics, realism, and the overall player experience. By conducting a comprehensive comparative analysis, the aim is to unveil the nuanced attributes of each technique, elucidating their strengths, weaknesses, and diverse applications within the realm of game development. Through this examination, developers can gain valuable insights into the optimal utilization of these techniques, enabling them to craft immersive and captivating gaming experiences tailored to their specific design objectives and player expectations.</dcterms:abstract>
+        <dc:date>5/2024</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:pages>6177-6181</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_159">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/159/Comparative Analysis of Game Development Techniques Using Finite State Machine, Physics Simulation,.pdf"/>
+        <dc:title>PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ijrpr.com/uploads/V5ISSUE5/IJRPR27934.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-20 13:03:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_160">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>10</prism:volume>
+                <dc:title>International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)</dc:title>
+                <dc:identifier>DOI 10.48175/IJARSCT-2062</dc:identifier>
+                <prism:number>1</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jagdale</foaf:surname>
+                        <foaf:givenName>Devang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_161"/>
+        <dc:relation rdf:resource="https://www.freecodecamp.org/news/finite-state-machines/"/>
+        <dc:subject>Finite-State-Machine (FSM)</dc:subject>
+        <dc:title>Finite State Machine in Game Development</dc:title>
+        <dcterms:abstract>Finite State Machine is one of the oldest techniques in gaming where it was used in old games like PACMAN and new games like TOMB RAIDER also. In all these games one major goal was to make non player characters more intelligent. There are some advance types also available but FSM still is one of the most used technique for non-player characters. The main goal of this paper is to explain how FSM works, how to create FSM and implement it in games using scripting or visual scripting. Hierarchical Finite State Machine is also discussed in this paper as it overcomes the limitations of older simple FSM. Using FSM, we can create intelligent AI agents. We can implement FSM and HFSM in games to make NPS’s behave like AI.</dcterms:abstract>
+        <dc:date>2021-10-22</dc:date>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+        <bib:pages>384-390</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_161">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>ResearchGate Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/355518086_Finite_State_Machine_in_Game_Development</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-20 13:06:15</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.freecodecamp.org/news/finite-state-machines/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>freeCodeCamp.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_163"/>
+        <dc:relation rdf:resource="#item_160"/>
+        <dc:subject>Finite-State-Machine (FSM)</dc:subject>
+        <dc:title>Finite State Machine Explained</dc:title>
+        <dcterms:abstract>The finite state machine (FSM) is a software design pattern where a given model transitions to other behavioral states through external input. Understanding the Finite State Machine A FSM is defined by its states, its initial state and the transition...</dcterms:abstract>
+        <dc:date>2020-01-06T22:37:00.000Z</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.freecodecamp.org/news/finite-state-machines/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-20 13:06:28</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_163">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/163/finite-state-machines.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.freecodecamp.org/news/finite-state-machines/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-20 13:06:33</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://ieeexplore.ieee.org/document/10487385">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>2023 Congress in Computer Science, Computer Engineering, &amp; Applied Computing (CSCE)</dc:title>
+                <dc:identifier>DOI 10.1109/CSCE60160.2023.00053</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abdulghani</foaf:surname>
+                        <foaf:givenName>Abdulghani M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abdulghani</foaf:surname>
+                        <foaf:givenName>Mokhles M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Walters</foaf:surname>
+                        <foaf:givenName>Wilbur L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abed</foaf:surname>
+                        <foaf:givenName>Khalid H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_165"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Reinforcement learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Training</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>AI</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Artificial Intelligence</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Graphics processing units</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Learning (artificial intelligence)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Measurement</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Multi Autonomous agents</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Multi-Agent Reinforcement Learning (MARL)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Portable computers</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Random access memory</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Reinforcement Learning (RL)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>StarCraft II Multi-Agent Challenges (SMAC) environment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Multi-Agent Reinforcement Learning System Using Value-Decomposition Network Algorithm in StarCraft Environment</dc:title>
+        <dcterms:abstract>Multi-Agent Reinforcement Learning (MARL) has been shown to be extremely successful in cooperative assignments. MARL allows for the control of multiple agents to complete multiple tasks in a certain environment and provide helpful services. In this paper, we will examine a war scenario with the StarCraft II Multi-Agent Challenges (SMAC) environment to implement a multi-agent system. For training, we employed one of the most popular MARL algorithms, which is the Value-Decomposition Network (VDN). This algorithm works on controlling the agents to cooperate with each other to achieve the desired goals. We will then use the battle won mean and the dead allies mean metrics to measure the performance of the VDN algorithm. The result showed that the VDN algorithm reaching the highest value of battle won mean with one million iterations and the lowest value of dead allies mean metrics with less than one million iterations. The hardware that we use in this work is CPU Cor i7 11800H, with 32 GB Ram and RTX 3080 laptop GPU, with CUDA Toolkit 11.7.1, and Pytorch 1.7.1.</dcterms:abstract>
+        <dc:date>2023-07</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10487385</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-24 09:07:48</dcterms:dateSubmitted>
+        <bib:pages>309-312</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2023 Congress in Computer Science, Computer Engineering, &amp; Applied Computing (CSCE)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_165">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/165/10487385.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/10487385</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-24 09:07:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://jair.org/index.php/jair/article/view/13743">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1076-9757"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Ruo-Ze</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pang</foaf:surname>
+                        <foaf:givenName>Zhen-Jia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Meng</foaf:surname>
+                        <foaf:givenName>Zhou-Yu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Wenhai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>Yang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lu</foaf:surname>
+                        <foaf:givenName>Tong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_167"/>
+        <dc:relation rdf:resource="https://www.nature.com/articles/s41586-019-1724-z"/>
+        <dc:subject>Reinforcement Learning (RL)</dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>game playing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>neural networks</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>reinforcement learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>On Efficient Reinforcement Learning for Full-length Game of StarCraft II</dc:title>
+        <dcterms:abstract>StarCraft II (SC2) poses a grand challenge for reinforcement learning (RL), of which the main difficulties include huge state space, varying action space, and a long time horizon. In this work, we investigate a set of RL techniques for the full-length game of StarCraft II. We investigate a hierarchical RL approach, where the hierarchy involves two. One is the extracted macro-actions from experts’ demonstration trajectories to reduce the action space in an order of magnitude. The other is a hierarchical architecture of neural networks, which is modular and facilitates scale. We investigate a curriculum transfer training procedure that trains the agent from the simplest level to the hardest level. We train the agent on a single machine with 4 GPUs and 48 CPU threads. On a 64x64 map and using restrictive units, we achieve a win rate of 99% against the difficulty level-1 built-in AI. Through the curriculum transfer learning algorithm and a mixture of combat models, we achieve a 93% win rate against the most difficult non-cheating level built-in AI (level-7). In this extended version of the paper, we improve our architecture to train the agent against the most difficult cheating level AIs (level-8, level-9, and level-10). We also test our method on different maps to evaluate the extensibility of our approach. By a final 3-layer hierarchical architecture and applying significant tricks to train SC2 agents, we increase the win rate against the level-8, level-9, and level-10 to 96%, 97%, and 94%, respectively. Our codes and models are all open-sourced now at https://github.com/liuruoze/HierNet-SC2.
+To provide a baseline referring the AlphaStar for our work as well as the research and open-source community, we reproduce a scaled-down version of it, mini-AlphaStar (mAS). The latest version of mAS is 1.07, which can be trained using supervised learning and reinforcement learning on the raw action space which has 564 actions. It is designed to run training on a single common machine, by making the hyper-parameters adjustable and some settings simplified. We then can compare our work with mAS using the same computing resources and training time. By experiment results, we show that our method is more effective when using limited resources. The inference and training codes of mini-AlphaStar are all open-sourced at https://github.com/liuruoze/mini-AlphaStar. We hope our study could shed some light on the future research of efficient reinforcement learning on SC2 and other large-scale games.</dcterms:abstract>
+        <dc:date>2022-09-29</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>jair.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jair.org/index.php/jair/article/view/13743</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-24 09:08:29</dcterms:dateSubmitted>
+        <dc:rights>Copyright (c) 2022 Journal of Artificial Intelligence Research</dc:rights>
+        <bib:pages>213-260</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1076-9757">
+        <prism:volume>75</prism:volume>
+        <dc:title>Journal of Artificial Intelligence Research</dc:title>
+        <dc:identifier>DOI 10.1613/jair.1.13743</dc:identifier>
+        <dc:identifier>ISSN 1076-9757</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_167">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/167/Liu et al. - 2022 - On Efficient Reinforcement Learning for Full-length Game of StarCraft II.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jair.org/index.php/jair/article/download/13743/26848</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-24 09:08:34</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_16">
+        <dc:title>FSM</dc:title>
+        <dcterms:hasPart rdf:resource="#item_158"/>
+        <dcterms:hasPart rdf:resource="#item_160"/>
+        <dcterms:hasPart rdf:resource="https://www.freecodecamp.org/news/finite-state-machines/"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_17">
+        <dc:title>Player-Experience</dc:title>
+        <dcterms:hasPart rdf:resource="#item_157"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_15">
+        <dc:title>RL-Agents</dc:title>
+        <dcterms:hasPart rdf:resource="#item_149"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-1-6654-3632-8"/>
+        <dcterms:hasPart rdf:resource="#item_152"/>
+        <dcterms:hasPart rdf:resource="https://ieeexplore.ieee.org/document/10695161/"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:979-8-3503-9532-7"/>
+        <dcterms:hasPart rdf:resource="https://www.nature.com/articles/s41586-019-1724-z"/>
+        <dcterms:hasPart rdf:resource="https://ieeexplore.ieee.org/document/10487385"/>
+        <dcterms:hasPart rdf:resource="https://jair.org/index.php/jair/article/view/13743"/>
+    </z:Collection>
+</rdf:RDF>

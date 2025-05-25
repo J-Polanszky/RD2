@@ -1,3 +1,6 @@
 [submodule "Dissertation/Dissertation"]
 	path = Dissertation/Dissertation
 	url = https://github.com/J-Polanszky/Dissertation.git
+[submodule "GeorgGrech_ThesisProject"]
+	path = GeorgGrech_ThesisProject
+	url = https://github.com/GeorgGrech/GeorgGrech_ThesisProject.git

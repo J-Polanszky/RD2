@@ -8,7 +8,10 @@ SP  - 97
 LA  - English
 M3  - Bachelor's
 PB  - Malta College of Arts Science and Technology (MCAST)
-L1  - files/2/Grech - Creating Difficulty Levels with Reinforcement Learning in a Strategy Game.pdf
+L1  - files/150/Grech - Creating Difficulty Levels with Reinforcement Learning in a Strategy Game.pdf
+N1  - <div data-schema-version="9"><p>Experiments with using snapshots of RL agents during training to create the different difficulty levels. The basis of the research being conducted. Has issue where RL agents are the only ones being tested, and not compared with FSMs</p>
+</div>
+KW  - Reinforcement Learning (RL)
 ER  - 
 
 TY  - CONF
@@ -30,6 +33,7 @@ PB  - IEEE
 SN  - 978-1-6654-3632-8
 UR  - https://ieeexplore.ieee.org/document/9567749/
 Y2  - 2025/03/16/10:20:20
+KW  - Reinforcement Learning (RL)
 ER  - 
 
 TY  - CONF
@@ -58,6 +62,7 @@ KW  - ML Agents
 KW  - Non-playable character (NPC)
 KW  - Reinforcement learning
 KW  - Reinforcement Learning
+KW  - Reinforcement Learning (RL)
 KW  - Training
 KW  - Unity
 ER  - 
@@ -84,7 +89,8 @@ J2  - J. Int. Con. Veh.
 SN  - 2399-9802
 UR  - https://ieeexplore.ieee.org/document/10695161/
 Y2  - 2025/03/16/10:25:04
-L1  - files/22/Berta et al. - 2024 - Development of Deep-Learning-Based Autonomous Agents for Low-Speed Maneuvering in Unity.pdf
+L1  - files/154/Berta et al. - 2024 - Development of Deep-Learning-Based Autonomous Agents for Low-Speed Maneuvering in Unity.pdf
+KW  - Reinforcement Learning (RL)
 ER  - 
 
 TY  - CONF
@@ -108,6 +114,7 @@ SN  - 979-8-3503-9532-7
 ST  - Unity ML-Agents
 UR  - https://ieeexplore.ieee.org/document/10692314/
 Y2  - 2025/03/16/10:25:36
+KW  - Reinforcement Learning (RL)
 ER  - 
 
 TY  - JOUR
@@ -168,7 +175,10 @@ LA  - en
 SN  - 1476-4687
 UR  - https://www.nature.com/articles/s41586-019-1724-z
 Y2  - 2025/03/16/12:10:21
+N1  - <div data-schema-version="9"><p>Shows the human-like performance and adaptability, allowing for more engaging, and adaptive opponents compared to SC2’s traditional FSMs.</p>
+</div>
 KW  - Computer science
+KW  - Reinforcement Learning (RL)
 KW  - Statistics
 ER  - 
 
@@ -177,27 +187,44 @@ TI  - Flow: The Psychology of Optimal Experience
 AU  - Csikszentmihalyi, Mihaly
 DA  - 1990/01//
 PY  - 1990
+N1  - <div data-schema-version="9"><p>Covers the fundamentals of player experience, as almost all papers reference this study.</p>
+</div>
+KW  - Player Experience
 ER  - 
 
 TY  - JOUR
 TI  - Comparative Analysis of Game Development Techniques: Using Finite State Machine, Physics Simulation, Path Finding, Event Handling
+AU  - Vivin, Richard. G
+AU  - Sree, Dev. A. K
+T2  - International Journal of Research Publication and Reviews
 AB  - This paper delves into the core techniques pivotal to game development: Finite State Machines (FSMs), Physics Simulation, Event Handling, and Path Finding. These techniques serve as pillars in defining the intricate behaviors and dynamics within games, influencing gameplay mechanics, realism, and the overall player experience. By conducting a comprehensive comparative analysis, the aim is to unveil the nuanced attributes of each technique, elucidating their strengths, weaknesses, and diverse applications within the realm of game development. Through this examination, developers can gain valuable insights into the optimal utilization of these techniques, enabling them to craft immersive and captivating gaming experiences tailored to their specific design objectives and player expectations.
+DA  - 2024/05//
+PY  - 2024
 DP  - Zotero
+VL  - 5
+IS  - 5
+SP  - 6177
+EP  - 6181
 LA  - en
-L1  - files/66/Comparative Analysis of Game Development Techniques Using Finite State Machine, Physics Simulation,.pdf
+L1  - files/159/Comparative Analysis of Game Development Techniques Using Finite State Machine, Physics Simulation,.pdf
+KW  - Finite-State-Machine (FSM)
 ER  - 
 
 TY  - JOUR
 TI  - Finite State Machine in Game Development
 AU  - Jagdale, Devang
+T2  - International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)
 AB  - Finite State Machine is one of the oldest techniques in gaming where it was used in old games like PACMAN and new games like TOMB RAIDER also. In all these games one major goal was to make non player characters more intelligent. There are some advance types also available but FSM still is one of the most used technique for non-player characters. The main goal of this paper is to explain how FSM works, how to create FSM and implement it in games using scripting or visual scripting. Hierarchical Finite State Machine is also discussed in this paper as it overcomes the limitations of older simple FSM. Using FSM, we can create intelligent AI agents. We can implement FSM and HFSM in games to make NPS’s behave like AI.
 DA  - 2021/10/22/
 PY  - 2021
 DO  - 10.48175/IJARSCT-2062
 DP  - ResearchGate
+VL  - 10
+IS  - 1
 SP  - 384
 EP  - 390
 L4  - https://www.researchgate.net/publication/355518086_Finite_State_Machine_in_Game_Development
+KW  - Finite-State-Machine (FSM)
 ER  - 
 
 TY  - ELEC
@@ -209,7 +236,8 @@ PY  - 2020
 LA  - en
 UR  - https://www.freecodecamp.org/news/finite-state-machines/
 Y2  - 2025/04/20/13:06:28
-L2  - files/71/finite-state-machines.html
+L2  - files/163/finite-state-machines.html
+KW  - Finite-State-Machine (FSM)
 ER  - 
 
 TY  - CONF
@@ -229,7 +257,7 @@ SP  - 309
 EP  - 312
 UR  - https://ieeexplore.ieee.org/document/10487385
 Y2  - 2025/04/24/09:07:48
-L2  - files/73/10487385.html
+L2  - files/165/10487385.html
 KW  - AI
 KW  - Artificial Intelligence
 KW  - Graphics processing units
@@ -267,9 +295,10 @@ LA  - en
 SN  - 1076-9757
 UR  - https://jair.org/index.php/jair/article/view/13743
 Y2  - 2025/04/24/09:08:29
-L1  - files/75/Liu et al. - 2022 - On Efficient Reinforcement Learning for Full-length Game of StarCraft II.pdf
+L1  - files/167/Liu et al. - 2022 - On Efficient Reinforcement Learning for Full-length Game of StarCraft II.pdf
 KW  - game playing
 KW  - neural networks
 KW  - reinforcement learning
+KW  - Reinforcement Learning (RL)
 ER  - 
 
